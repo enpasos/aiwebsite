@@ -10,8 +10,8 @@ Nuts & bolts - hands-on ...
 
 * [2023 - Introduction to Deep Learning](http://introtodeeplearning.com/)
 <br>_Massachusetts Institute of Technology (MIT), lecture series 6.S191_
-* [DeepMind - Learning Resources](https://deepmind.com/learning-resources)
-  <br>_DeepMind & University College London (UCL)_
+* [Google DeepMind - Learning Resources](https://deepmind.com/learning-resources)
+  <br>_Google DeepMind & University College London (UCL)_
   * [2020 - Deep Learning Lecture Series](https://deepmind.com/learning-resources/deep-learning-lecture-series-2020)
   * [2021 - Reinforcement Learning Lecture Series](https://deepmind.com/learning-resources/reinforcement-learning-series-2021)
   * [2015 - Introduction to Reinforcement Learning by David Silver](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver)
