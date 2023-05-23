@@ -1,0 +1,10 @@
+**/.gradle
+**/webserver/build
+**/api/build
+**/logs
+**/.idea
+**/target
+**/package-lock.json
+*.iml
+/buildSrc/build
+.cache

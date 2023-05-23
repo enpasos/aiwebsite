@@ -1,0 +1,375 @@
+ai.networkdir: ./network
+server:
+  servlet:
+    session:
+      tracking-modes:  # empty to disable session tracking
+  port: 8183
+logging:
+  file:
+    name: logs/enpasosai.log
+    max-history: 30
+    max-size: 100MB
+  level:
+    de: INFO
+    org.apache.cxf: WARN
+spring:
+  jersey:
+    application-path: /services
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+muzero:
+  activeGame: GO_5
+  games:
+    TICTACTOE:
+      modelName: MuZero-TicTacToe
+      gameClassName: ai.enpasos.muzero.tictactoe.config.TicTacToeGame
+      actionClassName: ai.enpasos.muzero.tictactoe.config.TicTacToeAction
+      playerMode: TWO_PLAYERS
+      valueHeadType: EXPECTED # DISTRIBUTION
+      networkWithRewardHead: false
+      withRewardHead: false
+      values: [ -1,0,1 ]
+      numObservationLayers: 3
+      numActionLayers: 1
+      squeezeChannelRatio: 16  # on squeeze and excitation (SE) block
+      numHiddenStateChannels: 5
+
+      numberOfTrainingStepsPerEpoch: 40
+
+      numUnrollSteps: 5
+
+      discount: 1.0
+      weightDecay: 0.0001
+      lrInit: 0.0001
+      absorbingStateDropToZero: false # faster for integration test
+
+      # numberTrainingStepsOnStart: 0
+
+      knownBoundsType: FROM_VALUES
+
+      inferenceDeviceType: GPU
+      outputDir: ./memory/tictactoe/
+      size: 3
+      maxMoves: 9  # size*size
+      boardHeight: 3 # size
+      boardWidth: 3 # size
+      actionSpaceSize: 9  # size*size
+
+      # without symmetry usage
+      # symmetryType: NONE
+      # batchSize: 2048
+
+      # using the square symmetry of the board
+      symmetryType: SQUARE
+      batchSize: 256
+
+
+
+      gameBufferWritingFormat: ZIPPED_PROTOCOL_BUFFERS # alternative: ZIPPED_JSON
+
+      # Gumbel MuZero parameters
+      initialGumbelM: 4
+      cVisit: 10  # 50 in paper
+      cScale: 1.0  # 1.0 in paper
+
+      numResiduals: 4
+      broadcastEveryN: 8  # out of range here
+      numChannels: 256
+      numBottleneckChannels: 128
+
+      valueLossWeight: 1
+
+      numberOfTrainingSteps: 2000
+
+
+      windowSizeStart: 5000
+      windowSizeIsDynamic: false #
+      windowSizeExponent: 0.8  # (sub)linear scaling of window size
+      windowSizeSlope: 0.5
+
+      playTypes:
+        PLAYOUT:
+          forTraining: false
+          numSimulations: 20
+          rootExplorationFraction: 0.0  # 0.0 means switched off
+          temperatureRoot: 0.0   # 0.0 means switched off
+        HYBRID:
+          forTraining: true
+          numEpisodes: 1
+          numParallelGamesPlayed: 800
+
+          tdSteps: 9 # 9 # size * size
+
+          numSimulations: 20
+
+          # dirichlet noise on root node helps to explore the game tree where the policy is temporarily underestimating some moves
+          # dirichlet noise is added before mcts
+          rootDirichletAlpha: 0.5
+          rootExplorationFraction: 0.25  # 0.0 means switched off
+
+          # temperatureRoot applies a temperature to the policy target after mcts and after storing it in game statistics but
+          # before drawing the action from the policy target (a little different from the paper)
+          # it helps to explore the game tree where the policy rules out bad moves and makes the agent blind to what could happen after such a move
+          temperatureRoot: 2.0   # 0.0 means switched off
+    GO_5:
+      modelName: MuZero-Go-5
+      outputDir: ./memory/go5/
+      values: [ -25,-24,-23,-22,-21,-20,-19,-18,-17,-16,-15,-14,-13,-12,-11,-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25 ]
+      komi: 0.5
+      maxKomi: 6.5
+      size: 5
+      boardHeight: 5 # size
+      boardWidth: 5 # size
+      actionSpaceSize: 26  # size * size + 1,  place a stone on the board or pass
+
+
+      # general
+      gameClassName: ai.enpasos.muzero.go.config.GoGame
+      actionClassName: ai.enpasos.muzero.go.config.GoAction
+      playerMode: TWO_PLAYERS
+      valueHeadType: EXPECTED # DISTRIBUTION
+      networkWithRewardHead: false
+      withRewardHead: false
+      absorbingStateDropToZero: false
+      inferenceDeviceType: GPU
+
+      # game/environment
+      maxMoves: 10000
+
+
+      # network sizing
+      numObservationLayers: 17  # 8 history * 2 player + 1 color of next player
+      numActionLayers: 1
+      numHiddenStateChannels: 19 # squeezing the hidden state from c to observationLayers + 2
+
+
+      # network training
+      symmetryType: SQUARE
+      numberOfTrainingStepsPerEpoch: 100
+      # windowValueSelfconsistencySize: 30000   <- postponed
+      batchSize: 128
+      numUnrollSteps: 5
+      # tdSteps: 10000 # here equals max moves
+      discount: 1.0
+      # loss details
+      weightDecay: 0.0001
+      # network training - adam optimizer
+      lrInit: 0.0001
+
+      # play
+      numberTrainingStepsOnStart: 0 # 2000
+
+      knownBoundsType: FROM_VALUES
+
+
+      gameBufferWritingFormat: ZIPPED_PROTOCOL_BUFFERS # alternative: ZIPPED_JSON
+
+
+      # Gumbel MuZero parameters
+      initialGumbelM: 8
+      cVisit: 50  # 50 in paper
+      cScale: 1.0  # 1.0 in paper
+
+      numChannels: 192     # 256 in the paper
+      numBottleneckChannels: 96
+      numResiduals: 12
+      broadcastEveryN: 8  # broadcasting block in every 8th layer
+
+
+      surpriseHandlingOn: false # false in paper
+      extraValueTrainingOn: false # false in paper
+
+      valueLossWeight: 1.0
+
+      maxGameLiveTime: 10000000  # or 40000
+      surpriseCheckInterval: 50000
+
+      windowSizeStart: 10000
+      windowSizeDynamicFraction: 1.0  # 0 = off,1 = on
+      windowSizeExponent: 0.8
+
+      numberOfTrainingSteps: 100000
+
+      # alternativeActionsWeight: 0.001   # 0.0 means switched off
+
+
+      playTypes:
+        PLAYOUT:
+          forTraining: false
+          numSimulations: 200
+          rootExplorationFraction: 0.0  # 0.0 means switched off
+          temperatureRoot: 0.0   # 0.0 means switched off
+        HYBRID:
+          forTraining: true
+          numEpisodes: 4
+          numParallelGamesPlayed: 250
+          tdSteps: 10000
+
+          numSimulations: 200
+
+          # dirichlet noise on root node helps to explore the game tree where the policy is temporarily underestimating some moves
+          # dirichlet noise is added before mcts
+          rootDirichletAlpha: 0.5
+          rootExplorationFraction: 0.0  # 0.0 means switched off
+
+          # temperatureRoot applies a temperature to the policy target after mcts and after storing it in game statistics but
+          # before drawing the action from the policy target (a little different from the paper)
+          # it helps to explore the game tree where the policy rules out bad moves and makes the agent blind to what could happen after such a move
+          temperatureRoot: 1.0   # 0.0 means switched off
+    GO_9:
+      modelName: MuZero-Go-9
+      values: [ -25,-24,-23,-22,-21,-20,-19,-18,-17,-16,-15,-14,-13,-12,-11,-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25 ]
+
+      outputDir: ./memory/go9/
+
+      komi: 0.5
+      maxKomi: 6.5
+      size: 9
+      boardHeight: 9 # size
+      boardWidth: 9 # size
+      actionSpaceSize: 82  # size * size + 1,  place a stone on the board or pass
+      numChannels: 128
+      batchSize: 64
+      numParallelGamesPlayed: 100
+      numEpisodes: 10
+      squeezeChannelRatio: 10  # on squeeze and excitation (SE) block
+
+      # general
+      gameClassName: ai.enpasos.muzero.go.config.GoGame
+      actionClassName: ai.enpasos.muzero.go.config.GoAction
+      playerMode: TWO_PLAYERS
+      valueHeadType: DISTRIBUTION # EXPECTED
+      networkWithRewardHead: false
+      withRewardHead: false
+      absorbingStateDropToZero: false # faster for integration test
+      inferenceDeviceType: GPU
+
+      # game/environment
+      maxMoves: 10000
+
+
+      # network sizing
+      numObservationLayers: 17  # 8 history * 2 player + 1 color of next player
+      numActionLayers: 1
+
+      numHiddenStateChannels: 19 # squeezing the hidden state from c to observationLayers + 2
+      numResiduals: 16
+
+      # network training
+      symmetryType: SQUARE
+      numberOfTrainingStepsPerEpoch: 100
+      numUnrollSteps: 5
+      # tdSteps: 10000 # here equals max moves
+      discount: 1.0
+      # loss details
+      weightDecay: 0.0001
+      valueLossWeight: 1.0
+      # network training - adam optimizer
+      lrInit: 0.0001
+
+      # play
+      numberTrainingStepsOnRandomPlay: 0
+
+      knownBoundsType: FROM_VALUES
+
+
+      gameBufferWritingFormat: ZIPPED_PROTOCOL_BUFFERS # alternative: ZIPPED_JSON
+
+
+      # Gumbel MuZero parameters
+      initialGumbelM: 16
+      cVisit: 50  # 50 in paper
+      cScale: 1.0  # 1.0 in paper
+
+      numberOfTrainingSteps: 300000
+
+
+      broadcastEveryN: 8
+      numBottleneckChannels: 64
+
+
+      surpriseHandlingOn: false # false in paper
+      extraValueTrainingOn: false # false in paper
+
+
+
+      windowSize: 50000 # or 20000
+      maxGameLiveTime: 10000000  # or 40000
+      surpriseCheckInterval: 50000
+
+
+      playTypes:
+        ENVIRONMENT_EXPLORATION:
+          numEpisodes: 4
+          numParallelGamesPlayed: 250
+
+          tdSteps: 0 # direct bootstrap
+
+          numSimulations: 50
+
+          # dirichlet noise on root node helps to explore the game tree where the policy is temporarily underestimating some moves
+          # dirichlet noise is added before mcts
+          rootDirichletAlpha: 0.1
+          rootExplorationFraction: 0.1  # 0.0 means switched off
+
+          # temperatureRoot applies a temperature to the policy target after mcts and after storing it in game statistics but
+          # before drawing the action from the policy target (a little different from the paper)
+          # it helps to explore the game tree where the policy rules out bad moves and makes the agent blind to what could happen after such a move
+          temperatureRoot: 1.0   # 0.0 means switched off
+
+    PEG_SOLITAIR:
+      outputDir: ./memory/pegsolitair/
+      numEpisodes: 1
+      numSimulations: 100
+      numParallelGamesPlayed: 1000
+
+      # general
+      modelName: MuZero-PegSolitair
+      gameClassName: ai.enpasos.muzero.pegsolitair.config.PegSolitairGame
+      actionClassName: ai.enpasos.muzero.pegsolitair.config.PegSolitairAction
+      playerMode: SINGLE_PLAYER
+      networkWithRewardHead: false
+      withRewardHead: false
+      absorbingStateDropToZero: false # faster for integration test
+      inferenceDeviceType: GPU
+
+      # game/environment
+      size: 7
+      maxMoves: 49  # size*size
+      boardHeight: 7 # size
+      boardWidth: 7 # size
+      actionSpaceSize: 196  # size * size * 4 = point to start from and 4 directions
+
+      # network sizing
+      numObservationLayers: 1
+      numActionLayers: 4   # one for each direction
+      numChannels: 128     # 256 in the paper
+      numHiddenStateChannels: 3
+      numResiduals: 16
+
+      # network training
+      symmetryType: SQUARE
+      numberOfTrainingSteps: 4000
+      numberOfTrainingStepsPerEpoch: 100
+      windowSize: 10000
+      batchSize: 64
+      numUnrollSteps: 5
+      tdSteps: 196 # here equals actionSpaceSize
+      discount: 1.0
+      # loss details
+      weightDecay: 0.0001
+      valueLossWeight: 1.0
+      # network training - adam optimizer
+      lrInit: 0.0001
+
+      # play
+      numberTrainingStepsOnRandomPlay: 0
+      rootDirichletAlpha: 2
+      rootExplorationFraction: 0.25
+      visitSoftmaxTemperatureThreshold: 30
+      knownBoundsType: NONE
+
+
+

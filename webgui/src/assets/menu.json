@@ -1,0 +1,42 @@
+[
+  {
+    "name": "shoulders of giants",
+    "icon": "mdi-elephant",
+    "path": "giants"
+  },
+  {
+    "name": "Nuts & Bolts",
+    "icon": "mdi-school",
+    "path": "learning"
+  },
+  {
+    "name": "MuZero",
+    "icon": "mdi-checkerboard",
+    "path": "muzero",
+    "children": [
+      {
+        "name": "Pioneers - Reward Is Enough",
+        "path": "PioneersRewardIsEnough"
+      },
+      {
+        "name": "Pioneers - Thinking, Fast & Slow",
+        "path": "PioneersFastSlow"
+      },
+      {
+        "name": "Pioneers - MuZero",
+        "path": "PioneersMuZero"
+      },
+      {
+        "name": "Here - Approach",
+        "path": "How"
+      },
+      {
+        "name": "Here - Tic-Tac-Toe",
+        "path": "TicTacToe"
+      },
+      {
+        "name": "Here - Go",
+        "path": "Go"
+      }
+    ]
+  }]
