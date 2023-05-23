@@ -121,7 +121,7 @@ const docStore = useDocStore()
 docStore.setToc(props.toc)
 
 const editHref = computed(() =>
-  `https://github.com/enpasos/aiwebsite/webgui/edit/${ process.env.DOCS_BRANCH }/docs/src/pages/${ props.editLink }.md`
+  `https://github.com/enpasos/aiwebsite/edit/main/webgui/edit/${ process.env.DOCS_BRANCH }/docs/src/pages/${ props.editLink }.md`
 )
 
 const tocClass = computed(() =>
