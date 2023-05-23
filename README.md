@@ -1,5 +1,7 @@
 # Enpasos AI website
 
+runs on [https://enpasos.ai](https://enpasos.ai)
+
 ## Making of
 
 The webgui of this project is based on [Quasar Docs](https://quasar.dev/docs/).
