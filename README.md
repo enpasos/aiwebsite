@@ -1,6 +1,6 @@
 # Enpasos AI website
 
-runs on [https://enpasos.ai](https://enpasos.ai)
+runs on [https://enpasos.ai](https://enpasos.ai)  ... early stage
 
 ## Making of
 
