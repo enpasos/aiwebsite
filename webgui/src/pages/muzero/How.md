@@ -29,8 +29,8 @@ We proceed with go games on 5x5 and 9x9 board (instead of 19x19) - 9x9 has [abou
 
 ### Batch training and batch selfplay
 
-The overall time spend on transport to gpu and operations on gpu is always much larger (for the hardware we use) than the time spend on Java which is automatically hotpot optimized.
-Therefore we run all code on Java sequentially while performance optimizing as much as possible on neural network operations.
+The overall time spend on transport to gpu and operations on gpu is larger (for the hardware we use) than the time spend on Java which is automatically hotspot optimized.
+Therefore special performance focus has to be taken on neural network operations.
 
 The tensor we transport to the gpu has four dimensions (training and inference):
 * batch dim
@@ -43,8 +43,7 @@ The tensor we transport to the gpu has four dimensions (training and inference):
 
 ### Symmetry to reduce selfplay effort
 
-TicTacToe and Go have a board symmetry (as mentioned in the Alpha Go papers) that allows us to make 8 selfplays out of one. The symmetry operations are done directly
-on the device which saves transport time.
+TicTacToe and Go have a board symmetry (as mentioned in the Alpha Go papers) that allows us to make 8 selfplays out of one. The symmetry operations are done directly on the device which saves transport time.
 
 
 ## Network architecture
