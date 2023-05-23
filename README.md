@@ -9,7 +9,6 @@ This encapsulation allows for easy editing future webservices.
 
 ## Build
 ```
-
 gradlew build
 ```
 
