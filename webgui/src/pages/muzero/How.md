@@ -50,13 +50,13 @@ TicTacToe and Go have a board symmetry (as mentioned in the Alpha Go papers) tha
 
 Let's sketch the network-structure:
 
-![Flexbox Justify Content](/network.svg)
+![Flexbox Justify Content](https://enpasos.ai/network.svg)
 
 Bottom-up means from input to output. Left-right does inference timestep by timestep, starting with initially consuming
 the observation, transforming it to an internal "embedded" state, that is then propagated forward by the network on each
 action during Monte Carlo Tree Search (MCTS).
 
-![Flexbox Justify Content](/network2.svg)
+![Flexbox Justify Content](https://enpasos.ai/network2.svg)
 
 
 
@@ -68,7 +68,7 @@ parameters - this is also true for the prediction function.
 
 For board games (no reward head in the dynamics function and representation/dynamics functions with the same structure)
 
-![Flexbox Justify Content](/network3.svg)
+![Flexbox Justify Content](https://enpasos.ai/network3.svg)
 
 Sizing Parameters:
 - **C**: number of channels
@@ -83,7 +83,7 @@ The residual tower is composed of R stacked residual blocks. The standard block 
 BroadcastResidualBlock (see [Gumbel Muzero](https://openreview.net/forum?id=bERaNdoegnO)).
 Each residual block learns a delta improvement that includes local and global spacial properties.
 
-![Flexbox Justify Content](/network4.svg)
+![Flexbox Justify Content](https://enpasos.ai/network4.svg)
 
 
 ### ONNX

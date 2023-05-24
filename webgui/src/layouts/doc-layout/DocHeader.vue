@@ -5,7 +5,7 @@
         <img
           class="doc-header__logo-img"
           :src="logo.img"
-          alt="Quasar Logo"
+          alt="Logo"
           width="48"
           height="48"
         >
@@ -104,7 +104,7 @@ const docStore = useDocStore()
 const logo = computed(() => {
   const opt = docStore.$q.dark.isActive === true ? '-dark' : ''
   return {
-    img: `logo${opt}.svg`,
+    img: `https://enpasos.ai/logo${opt}.svg`,
     text: 'enpasos.ai'
   }
 })

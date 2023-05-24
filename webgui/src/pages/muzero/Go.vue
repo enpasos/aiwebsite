@@ -41,7 +41,7 @@
           </div>
       </div>
       <div>{{ lastMoveStr }}</div>
-      <div>{{ actions }}</div>
+      <!--div>{{ actions }}</div-->
       <div  v-if="inferenceTime" class="text-grey-13">{{ inferenceTime }} ms for inference</div>
       <div v-if="gameOver">{{ resultStr }}</div>
       <div>&nbsp;</div>

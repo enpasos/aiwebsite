@@ -9,4 +9,18 @@ public class OtherController {
 //    public String redirectApi() {
 //        return "/index.html";
 //    }
+
+    @RequestMapping(value = "/**/{[path:[^\\.]*}")
+    public String redirect() {
+        return "forward:/";
+    }
+
+//    @Controller
+//    public class ClientForwardController {
+//        @GetMapping(value = "/**/{path:[^\\.]*}")
+//        public String forward() {
+//            return "forward:/";
+//        }
+//    }
 }
+

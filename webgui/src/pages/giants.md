@@ -1,10 +1,10 @@
 ---
 title: On the Shoulders of Giants
 desc: ....
-nav:
-  - { classes: "doc-page__related--right",
-      name: "Nuts & Bolts",
-      path: "/learning" }
+#nav:
+#  - { classes: "doc-page__related--right",
+#      name: "Nuts & Bolts",
+#      path: "/learning" }
 ---
 
 Successfully moving in the direction of artificial intelligence (AI) is easiest
@@ -21,7 +21,7 @@ Our approach to get an AI solution running is to use a powerful stack provided b
 to add only a thin layer of custom application code:
 
 
-<div><object type="image/svg+xml" data="/approach.svg" width="100%"/></div>
+<div><object type="image/svg+xml" data="https://enpasos.ai/approach.svg" width="100%"/></div>
 
 In this way, we try to take useful steps towards AI.
 
