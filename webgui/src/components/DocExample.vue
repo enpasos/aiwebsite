@@ -124,7 +124,7 @@ function parseComponent (comp) {
 }
 
 function openGitHub () {
-  openURL(`https://github.com/quasarframework/quasar/tree/${ process.env.DOCS_BRANCH }/docs/src/examples/${ examples.name }/${ props.file }.vue`)
+  openURL(`https://github.com/enpasos/aiwebsite/tree/${ process.env.DOCS_BRANCH }/docs/src/examples/${ examples.name }/${ props.file }.vue`)
 }
 
 function openCodepen () {

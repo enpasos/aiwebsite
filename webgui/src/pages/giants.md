@@ -1,5 +1,5 @@
 ---
-title: On the shoulders of giants
+title: On the Shoulders of Giants
 desc: ....
 nav:
   - { classes: "doc-page__related--right",

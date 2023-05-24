@@ -1,4 +1,3 @@
-
 import mdPageList from 'src/pages/listing'
 
 
@@ -6,7 +5,7 @@ import mdPageList from 'src/pages/listing'
 import DocLayout from 'src/layouts/doc-layout/DocLayout.vue'
 
 const routeMap = {
-  //'./docs/docs.md': { path: 'docs' }
+  './docs/docs.md': { path: '/docs' }
   // './integrations/integrations.md': { path: 'integrations' },
   // './components/components.md': { path: 'components', meta: { fullwidth: true, dark: true } }
 }
@@ -44,24 +43,6 @@ const routes = [
       })
     ]
   },
-
-
-  // gallery
-  // ...layoutGallery.map(layout => ({
-  //   path: layout.demoLink,
-  //   component: vueGalleryPageList[ `./${ layout.path }.vue` ],
-  //   children: [
-  //     {
-  //       path: '',
-  //       component: () => import('../layouts/gallery/LayoutGalleryPage.vue'),
-  //       meta: {
-  //         title: layout.name,
-  //         screenshot: layout.screenshot,
-  //         sourceLink: layout.sourceLink
-  //       }
-  //     }
-  //   ]
-  // })),
 
   // Always leave this as last one
   {

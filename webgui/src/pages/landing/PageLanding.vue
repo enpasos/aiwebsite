@@ -13,7 +13,7 @@
         <q-btn
           label="Start"
           class="call-to-action-btn shadow-bottom-small"
-          href="/giants"
+          to="docs"
         />
 
         <!--q-btn

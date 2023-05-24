@@ -6,6 +6,10 @@ editLink: false
 keys: Welcome,enpasos,ai
 components:
   - ./DocsHomepage
+nav:
+  - { classes: "doc-page__related--right",
+      name: "Shoulders of Giants",
+      path: "/giants" }
 ---
 
 <docs-homepage />
