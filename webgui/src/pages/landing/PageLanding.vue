@@ -27,7 +27,7 @@ import { useMeta, scroll } from 'quasar'
 import DocStars from 'src/components/DocStars.vue'
 
 useMeta({
-  title: 'Enpasos AI',
+  title: 'enpasos.ai',
   titleTemplate: ''
 })
 

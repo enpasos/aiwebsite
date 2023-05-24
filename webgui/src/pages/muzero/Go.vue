@@ -2,17 +2,17 @@
     <div class="q-pa-xl">
       <div class="q-gutter-y-lg">
         <div class="row justify-start">
-          <q-radio v-model="sizeString" color="black" label="5x5" val="5"  />
-          <q-radio v-model="sizeString" color="black" label="9x9" val="9" />
+          <q-radio v-model="sizeString" color="grey-9" label="5x5" val="5"  />
+          <q-radio v-model="sizeString" color="grey-9" label="9x9" val="9" />
           <q-toggle
             v-model="humanPlaysBlack"
             :label="aiPlaysBlackLabel"
-            color="black"
+            color="grey-9"
             @click="restart"
           />
           &nbsp;
           &nbsp;
-          <q-select v-model="komi" :options="komis" color="grey-5" dense label="komi" label-color="black"  options-dense outlined style="min-width: 80px" @update:model-value="onKomiChange" />
+          <q-select v-model="komi" :options="komis" color="grey-5" dense label="komi" label-color="grey-9"  options-dense outlined style="min-width: 80px" @update:model-value="onKomiChange" />
         </div>
         <div class="row justify-start">
           <div>
@@ -34,9 +34,9 @@
             />
           </div>
           <div class="column q-ml-xl" >
-            <q-btn  v-if="playingAllowed"  color="white" label="pass" style="min-width: 80px" text-color="black" @click="pass" />
-            <q-btn  v-if="playingAllowed"  class="q-mt-sm"  color="white" label="undo" style="min-width: 80px" text-color="black" @click="undo" />
-            <q-btn  v-if="gameOver"  color="white" label="Restart" style="min-width: 80px"  text-color="black" @click="restart"></q-btn>
+            <q-btn  v-if="playingAllowed"  color="grey-4" label="pass" style="min-width: 80px" text-color="grey-9" @click="pass" />
+            <q-btn  v-if="playingAllowed"  class="q-mt-sm"  color="grey-4" label="undo" style="min-width: 80px" text-color="grey-9" @click="undo" />
+            <q-btn  v-if="gameOver"  color="white" label="Restart" style="min-width: 80px"  text-color="grey-9" @click="restart"></q-btn>
           </div>
           </div>
       </div>

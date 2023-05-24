@@ -16,6 +16,8 @@ helped us a lot to dive into the subject matter. We used the go environment with
 
 <go title="Game Go" />
 
+Go5 is running. Go9 is in preparation.
+
 The trained MuZero networks are loaded from the server when the page is initialized. You can choose the number of recurrent inference steps during MCTS by moving the slider.
 The ai does all inference steps on your device. Go Rules: area scoring.
 
