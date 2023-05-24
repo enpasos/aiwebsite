@@ -8,12 +8,12 @@ import { useMeta } from 'quasar'
 import getMeta from 'assets/get-meta.js'
 
 useMeta({
-  title: 'enpasos.ai',
+  title: 'Step by Step to AI',
   titleTemplate: title => `${title} | enpasos.ai`,
 
   meta: getMeta(
-    'enpasos.ai - step by step toward artificial intelligence',
-    'Going step by step toward artificial intelligence reusing open source code.'
+    'enpasos.ai - Step by Step to AI',
+    'Step by step towards artificial intelligence, reusing open source code and adding little of our own.'
   )
 })
 </script>

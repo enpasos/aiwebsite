@@ -7,7 +7,7 @@
         <q-img src="https://enpasos.ai/logo-vertical-dark.svg" width="300px" height="270px" />
 
         <h1 class="letter-spacing-375 landing-my-large text-center text-white text-size-20 primary-line-height">
-          in steps towards AI
+          Step by Step to AI
         </h1>
 
         <q-btn
@@ -27,7 +27,7 @@ import { useMeta, scroll } from 'quasar'
 import DocStars from 'src/components/DocStars.vue'
 
 useMeta({
-  title: 'enpasos.ai',
+  title: 'Step by Step to AI',
   titleTemplate: ''
 })
 
