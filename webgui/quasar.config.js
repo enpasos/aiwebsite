@@ -46,11 +46,8 @@ module.exports = ctx => ({
     extendViteConf (config, { isClient }) {
       if (ctx.prod && isClient) {
         config.build.chunkSizeWarningLimit = 650
-      //  config.optimizeDeps.exclude = ['onnxruntime-web']
         config.build.rollupOptions = {
           output: { manualChunks }
-          //,
-        //  external: ['onnxruntime-web']
         }
       }
     }
