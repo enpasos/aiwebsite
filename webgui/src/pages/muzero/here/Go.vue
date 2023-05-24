@@ -59,7 +59,7 @@
 </style>
 <script lang="ts">
 import tenuki from 'tenuki'
-import {mathUtils, muzero, runModelUtils} from '../../utils'
+import {mathUtils, muzero, runModelUtils} from '../../../utils'
 import {InferenceSession, Tensor} from 'onnxruntime-web'
 import {GChart} from 'vue-google-charts'
 import {defineComponent} from 'vue'

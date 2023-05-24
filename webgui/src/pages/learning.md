@@ -1,5 +1,5 @@
 ---
-title: Hands-on Deep Learning
+title: Learning the Basics
 desc: ....
 ---
 

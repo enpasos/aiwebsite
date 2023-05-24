@@ -13,9 +13,9 @@ scope:
     github: enpasos
     desc: Architecture and Development
   - name: Katharina Unverzagt
-    role: Project Organization
+    role: PMO
+    github: &nbsp;
     avatar:  /katharina.png
-    github: enpasos
     email: katharina.unverzagt@enpasos.com
     desc: Project Organization
 ---

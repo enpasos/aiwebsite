@@ -1,5 +1,5 @@
 ---
-title: Pioneers - MuZero
+title: Pioneers - MuZero & Beyond
 desc: Pioneers ...
 ---
 

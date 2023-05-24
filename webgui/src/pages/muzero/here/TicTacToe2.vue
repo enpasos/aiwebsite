@@ -183,7 +183,7 @@
 </template>
 
 <script>
-import { mathUtils, runModelUtils } from '../../utils'
+import { mathUtils, runModelUtils } from '../../../utils'
 import { Tensor, InferenceSession } from 'onnxruntime-web'
 import { defineComponent } from 'vue'
 

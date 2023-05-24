@@ -5,7 +5,7 @@
     "path": "giants"
   },
   {
-    "name": "Nuts & Bolts",
+    "name": "Learning the Basics",
     "icon": "mdi-school",
     "path": "learning"
   },
@@ -15,28 +15,41 @@
     "path": "muzero",
     "children": [
       {
-        "name": "Pioneers - Reward Is Enough",
-        "path": "PioneersRewardIsEnough"
+        "name": "Pioneers",
+        "path": "pioneers",
+        "children": [
+          {
+            "name": "Reward Is Enough",
+            "path": "RewardIsEnough"
+          },
+          {
+            "name": "Thinking, Fast & Slow",
+            "path": "FastSlow"
+          },
+          {
+            "name": "MuZero & Beyond",
+            "path": "MuZero"
+          }
+        ]
       },
       {
-        "name": "Pioneers - Thinking, Fast & Slow",
-        "path": "PioneersFastSlow"
-      },
-      {
-        "name": "Pioneers - MuZero",
-        "path": "PioneersMuZero"
-      },
-      {
-        "name": "Here - Approach",
-        "path": "How"
-      },
-      {
-        "name": "Here - Tic-Tac-Toe",
-        "path": "TicTacToe"
-      },
-      {
-        "name": "Here - Go",
-        "path": "Go"
+        "name": "Here",
+        "path": "here",
+        "children": [
+          {
+            "name": "Approach",
+            "path": "How"
+          },
+          {
+            "name": "Tic-Tac-Toe",
+            "path": "TicTacToe"
+          },
+          {
+            "name": "Go",
+            "path": "Go"
+          }
+        ]
       }
     ]
-  }]
+  }
+]

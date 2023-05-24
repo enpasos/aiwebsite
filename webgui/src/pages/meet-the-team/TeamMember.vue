@@ -3,6 +3,7 @@
     <q-card-section>
       <div class="text-bold">{{ props.name }}</div>
       <div v-if="props.github">@{{ props.github }}</div>
+      <div v-if="!props.github">&nbsp;</div>
     </q-card-section>
 
     <q-img v-if="props.avatar" alt="avatar" :src="url.avatar" :ratio="1" />
