@@ -1,888 +1,118 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Generiert durch Microsoft Visio, SVG Export network2.svg Zeichenblatt-1 -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="8.02in" height="3.46774in"
-		viewBox="0 0 577.44 249.677" xml:space="preserve" color-interpolation-filters="sRGB" class="st12">
-	<v:documentProperties v:langID="3072" v:metric="true" v:viewMarkup="false"/>
-
-	<style type="text/css">
-	<![CDATA[
-		.st1 {fill:#ffffff;stroke:#3399ff;stroke-dasharray:2,4;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
-		.st2 {fill:#5c5c5c;font-family:Calibri;font-size:1.00001em;font-stretch:semi-expanded}
-		.st3 {fill:#ffffff;stroke:#3399ff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
-		.st4 {fill:#595959;font-family:Calibri;font-size:1.00001em}
-		.st5 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
-		.st6 {fill:#5c5c5c;font-family:Calibri;font-size:1.00001em}
-		.st7 {fill:#ffc000;stroke:#ffc000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
-		.st8 {marker-end:url(#mrkr4-62);stroke:#a5a5a5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
-		.st9 {fill:#a5a5a5;fill-opacity:1;stroke:#a5a5a5;stroke-opacity:1;stroke-width:0.28409090909091}
-		.st10 {fill:#ffffff;fill-opacity:0.81;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
-		.st11 {fill:#5c5c5c;font-family:Calibri;font-size:2.50001em}
-		.st12 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
-	]]>
-	</style>
-
-	<defs id="Patterns_And_Gradients">
-		<linearGradient id="grad0-11" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(90 0.5 0.5)">
-			<stop offset="0.01" stop-color="#ffffff" stop-opacity="1"/>
-			<stop offset="0.5" stop-color="#fefefe" stop-opacity="1"/>
-			<stop offset="1" stop-color="#ffffff" stop-opacity="1"/>
-		</linearGradient>
-		<linearGradient id="grad0-15" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(270 0.5 0.5)">
-			<stop offset="0" stop-color="#fefefe" stop-opacity="1"/>
-			<stop offset="1" stop-color="#ffffff" stop-opacity="1"/>
-		</linearGradient>
-	</defs>
-	<defs id="Markers">
-		<g id="lend4">
-			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
-		</g>
-		<marker id="mrkr4-62" class="st9" v:arrowType="4" v:arrowSize="2" v:setback="7.04" refX="-7.04" orient="auto"
-				markerUnits="strokeWidth" overflow="visible">
-			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
-		</marker>
-	</defs>
-	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
-		<title>Zeichenblatt-1</title>
-		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
-				v:shadowOffsetY="-8.50394"/>
-		<v:layer v:name="Container" v:index="0"/>
-		<v:layer v:name="Verbinder" v:index="1"/>
-		<g id="group28-1" transform="translate(1,-41.1091)" v:mID="28" v:groupContext="group" v:layerMember="0">
-			<v:userDefs>
-				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(ContainerStyleDefaults)"/>
-				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Container)"/>
-				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0.11811023622047):24"/>
-				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(1):26"/>
-				<v:ud v:nameU="msvSDContainerLocked" v:prompt="" v:val="VT0(0):5"/>
-				<v:ud v:nameU="msvSDContainerNoHighlight" v:prompt="" v:val="VT0(0):5"/>
-				<v:ud v:nameU="msvSDContainerNoRibbon" v:prompt="" v:val="VT0(0):5"/>
-				<v:ud v:nameU="msvSDContainerStyle" v:prompt="" v:val="VT0(1):26"/>
-				<v:ud v:nameU="msvSDContainerStyleCount" v:prompt="" v:val="VT0(14):26"/>
-				<v:ud v:nameU="msvSDContainerRequiredCategories" v:prompt="" v:val="VT0(0):26"/>
-				<v:ud v:nameU="msvSDContainerExcludedCategories" v:prompt="" v:val="VT4(DoNotContain)"/>
-				<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
-				<v:ud v:nameU="msvSDHeadingStyleCount" v:prompt="" v:val="VT0(4):26"/>
-				<v:ud v:nameU="HeadingSide" v:prompt="" v:val="VT0(0):26"/>
-				<v:ud v:nameU="HeadingSpan" v:prompt="" v:val="VT0(0):26"/>
-				<v:ud v:nameU="HeadingAlign" v:prompt="" v:val="VT0(0):26"/>
-				<v:ud v:nameU="RTL" v:prompt="" v:val="VT0(0):5"/>
-				<v:ud v:nameU="FnForceContrast" v:prompt="" v:val="VT5(#ffffff)"/>
-				<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT0(1):26"/>
-				<v:ud v:nameU="HColor1" v:prompt="" v:val="VT5(#ffffff)"/>
-				<v:ud v:nameU="HColor2" v:prompt="" v:val="VT5(#fefefe)"/>
-				<v:ud v:nameU="HColor3" v:prompt="" v:val="VT5(#e9e9e9)"/>
-				<v:ud v:nameU="HColor4" v:prompt="" v:val="VT5(#efefef)"/>
-				<v:ud v:nameU="BColor1" v:prompt="" v:val="VT5(#ffffff)"/>
-				<v:ud v:nameU="BColor2" v:prompt="" v:val="VT5(#ffffff)"/>
-				<v:ud v:nameU="LineColor" v:prompt="" v:val="VT5(#d5d5d5)"/>
-				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
-				<v:ud v:nameU="Embellishment" v:prompt="" v:val="VT0(2):26"/>
-				<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT5(#ffffff)"/>
-			</v:userDefs>
-			<title>Einfach</title>
-			<g id="group29-2" v:mID="29" v:groupContext="group" v:layerMember="0">
-				<v:userDefs>
-					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="CStyle" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="HSide" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HSpan" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HAlign" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HorzAlign" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="SquareCorners" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Corner6" v:prompt="" v:val="VT0(0.19685039370079):24"/>
-					<v:ud v:nameU="FillForegndIn" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="FillBkgndIn" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="FillPatternIn" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
-					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
-					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#1f477d)"/>
-					<v:ud v:nameU="FillForegndIn" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="FillBkgndIn" v:prompt="" v:val="VT5(#000000)"/>
-					<v:ud v:nameU="FillPatternIn" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#a5a5a5)"/>
-					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#a5a5a5)"/>
-				</v:userDefs>
-				<title>Tabelle.29</title>
-				<g id="shape30-3" v:mID="30" v:groupContext="shape" v:layerMember="0" transform="translate(2.83465,2.83465)">
-					<title>Tabelle.30</title>
-					<v:userDefs>
-						<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="msvThemeColors" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="msvThemeEffects" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="CStyle" v:prompt="" v:val="VT0(1):26"/>
-						<v:ud v:nameU="HSide" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HSpan" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HAlign" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HorzAlign" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="SquareCorners" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="OffsetX10" v:prompt="" v:val="VT0(0.039370078740157):24"/>
-						<v:ud v:nameU="OffsetY10" v:prompt="" v:val="VT0(-0.039370078740157):24"/>
-						<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
-						<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
-						<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#1f477d)"/>
-					</v:userDefs>
-				</g>
-				<g id="shape29-5" v:mID="29" v:groupContext="groupContent" v:layerMember="0">
-					<path d="M0 249.68 L85.89 249.68 L171.78 249.68 L171.78 84.5 L85.89 84.5 L0 84.5 L0 249.68 Z" class="st1"/>
-				</g>
-			</g>
-			<g id="group31-7" transform="translate(0,-139.663)" v:mID="31" v:groupContext="group" v:layerMember="0">
-				<v:userDefs>
-					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
-					<v:ud v:nameU="CStyle" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="HSide" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HSpan" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HAlign" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Hidden" v:prompt="" v:val="VT0(0):5"/>
-					<v:ud v:nameU="HorzAlign" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Rounding" v:prompt="" v:val="VT0(0):1"/>
-					<v:ud v:nameU="SquareCorners" v:prompt="" v:val="VT0(3):26"/>
-					<v:ud v:nameU="Inset" v:prompt="" v:val="VT0(0):24"/>
-					<v:ud v:nameU="InsideRadius" v:prompt="" v:val="VT0(0):24"/>
-					<v:ud v:nameU="InsetXInt" v:prompt="" v:val="VT0(0):24"/>
-					<v:ud v:nameU="HTxtMargin" v:prompt="" v:val="VT0(0.059055118110236):24"/>
-					<v:ud v:nameU="HTxtWidth" v:prompt="" v:val="VT0(2.9527559055118):24"/>
-					<v:ud v:nameU="HLeft" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HRight" v:prompt="" v:val="VT0(2.9527559055118):24"/>
-					<v:ud v:nameU="SquareCorners7" v:prompt="" v:val="VT0(3):26"/>
-					<v:ud v:nameU="Offset" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Rounding8" v:prompt="" v:val="VT0(0.11811023622047):24"/>
-					<v:ud v:nameU="InsetX9" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="InsetY9" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="OffsetY11" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="OffsetY12" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Width12" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
-					<v:ud v:nameU="HLineVisible" v:prompt="" v:val="VT0(0):5"/>
-					<v:ud v:nameU="HFillVisible" v:prompt="" v:val="VT0(0):5"/>
-					<v:ud v:nameU="FillForegndIn" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="FillBkgndIn" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="FillPatternIn" v:prompt="" v:val="VT0(30):26"/>
-					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
-					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
-					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
-					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
-					<v:ud v:nameU="HTxtWidth" v:prompt="" v:val="VT0(2.3858267221719):1"/>
-					<v:ud v:nameU="HRight" v:prompt="" v:val="VT0(2.3858267221719):1"/>
-					<v:ud v:nameU="FillForegndIn" v:prompt="" v:val="VT5(#000000)"/>
-					<v:ud v:nameU="FillBkgndIn" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="FillPatternIn" v:prompt="" v:val="VT0(30):26"/>
-					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#a5a5a5)"/>
-					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#5c5c5c)"/>
-					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5c5c5c)"/>
-				</v:userDefs>
-				<title>Tabelle.31</title>
-				<desc>initial inference</desc>
-				<g id="shape32-8" v:mID="32" v:groupContext="shape" v:layerMember="0">
-					<title>Tabelle.32</title>
-					<v:userDefs>
-						<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="msvThemeColors" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="msvThemeEffects" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="CStyle" v:prompt="" v:val="VT0(1):26"/>
-						<v:ud v:nameU="Rounding" v:prompt="" v:val="VT0(0):1"/>
-						<v:ud v:nameU="SquareCorners" v:prompt="" v:val="VT0(3):26"/>
-						<v:ud v:nameU="HLeft" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HRight" v:prompt="" v:val="VT0(2.9527559055118):24"/>
-						<v:ud v:nameU="Hidden" v:prompt="" v:val="VT0(0):5"/>
-						<v:ud v:nameU="BowHeight7" v:prompt="" v:val="VT0(0.11811023622047):24"/>
-						<v:ud v:nameU="Offset7" v:prompt="" v:val="VT0(0.0052083333333333):3"/>
-						<v:ud v:nameU="AnchorPt7" v:prompt="" v:val="VT0(0.64439796587927):24"/>
-						<v:ud v:nameU="HSide" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HAlign" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HRight" v:prompt="" v:val="VT0(2.3858267221719):1"/>
-						<v:ud v:nameU="Offset7" v:prompt="" v:val="VT0(0.013888888888889):29"/>
-						<v:ud v:nameU="AnchorPt7" v:prompt="" v:val="VT0(0.63571741032371):24"/>
-					</v:userDefs>
-				</g>
-				<g id="shape31-12" v:mID="31" v:groupContext="groupContent" v:layerMember="0">
-					<v:textBlock v:margins="rect(4,6,4,6)" v:tabSpace="42.5197"/>
-					<v:textRect cx="85.8898" cy="236.921" width="171.78" height="25.5118"/>
-					<text x="6" y="240.52" class="st2" v:langID="1031"><v:paragraph/><v:tabList/>initial inference</text>				</g>
-			</g>
-		</g>
-		<g id="group51-17" transform="translate(197.109,-41.1091)" v:mID="51" v:groupContext="group" v:layerMember="0">
-			<v:userDefs>
-				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(ContainerStyleDefaults)"/>
-				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Container)"/>
-				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0.11811023622047):24"/>
-				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(1):26"/>
-				<v:ud v:nameU="msvSDContainerLocked" v:prompt="" v:val="VT0(0):5"/>
-				<v:ud v:nameU="msvSDContainerNoHighlight" v:prompt="" v:val="VT0(0):5"/>
-				<v:ud v:nameU="msvSDContainerNoRibbon" v:prompt="" v:val="VT0(0):5"/>
-				<v:ud v:nameU="msvSDContainerStyle" v:prompt="" v:val="VT0(1):26"/>
-				<v:ud v:nameU="msvSDContainerStyleCount" v:prompt="" v:val="VT0(14):26"/>
-				<v:ud v:nameU="msvSDContainerRequiredCategories" v:prompt="" v:val="VT0(0):26"/>
-				<v:ud v:nameU="msvSDContainerExcludedCategories" v:prompt="" v:val="VT4(DoNotContain)"/>
-				<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
-				<v:ud v:nameU="msvSDHeadingStyleCount" v:prompt="" v:val="VT0(4):26"/>
-				<v:ud v:nameU="HeadingSide" v:prompt="" v:val="VT0(0):26"/>
-				<v:ud v:nameU="HeadingSpan" v:prompt="" v:val="VT0(0):26"/>
-				<v:ud v:nameU="HeadingAlign" v:prompt="" v:val="VT0(0):26"/>
-				<v:ud v:nameU="RTL" v:prompt="" v:val="VT0(0):5"/>
-				<v:ud v:nameU="FnForceContrast" v:prompt="" v:val="VT5(#ffffff)"/>
-				<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT0(1):26"/>
-				<v:ud v:nameU="HColor1" v:prompt="" v:val="VT5(#ffffff)"/>
-				<v:ud v:nameU="HColor2" v:prompt="" v:val="VT5(#fefefe)"/>
-				<v:ud v:nameU="HColor3" v:prompt="" v:val="VT5(#e9e9e9)"/>
-				<v:ud v:nameU="HColor4" v:prompt="" v:val="VT5(#efefef)"/>
-				<v:ud v:nameU="BColor1" v:prompt="" v:val="VT5(#ffffff)"/>
-				<v:ud v:nameU="BColor2" v:prompt="" v:val="VT5(#ffffff)"/>
-				<v:ud v:nameU="LineColor" v:prompt="" v:val="VT5(#d5d5d5)"/>
-				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
-				<v:ud v:nameU="Embellishment" v:prompt="" v:val="VT0(2):26"/>
-				<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT5(#ffffff)"/>
-			</v:userDefs>
-			<title>Einfach.51</title>
-			<g id="group52-18" v:mID="52" v:groupContext="group" v:layerMember="0">
-				<v:userDefs>
-					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="CStyle" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="HSide" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HSpan" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HAlign" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HorzAlign" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="SquareCorners" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Corner6" v:prompt="" v:val="VT0(0.19685039370079):24"/>
-					<v:ud v:nameU="FillForegndIn" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="FillBkgndIn" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="FillPatternIn" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
-					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
-					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#1f477d)"/>
-					<v:ud v:nameU="FillForegndIn" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="FillBkgndIn" v:prompt="" v:val="VT5(#000000)"/>
-					<v:ud v:nameU="FillPatternIn" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#a5a5a5)"/>
-					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#a5a5a5)"/>
-				</v:userDefs>
-				<title>Tabelle.52</title>
-				<g id="shape53-19" v:mID="53" v:groupContext="shape" v:layerMember="0" transform="translate(2.83465,2.83465)">
-					<title>Tabelle.53</title>
-					<v:userDefs>
-						<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="msvThemeColors" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="msvThemeEffects" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="CStyle" v:prompt="" v:val="VT0(1):26"/>
-						<v:ud v:nameU="HSide" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HSpan" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HAlign" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HorzAlign" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="SquareCorners" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="OffsetX10" v:prompt="" v:val="VT0(0.039370078740157):24"/>
-						<v:ud v:nameU="OffsetY10" v:prompt="" v:val="VT0(-0.039370078740157):24"/>
-						<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
-						<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
-						<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#1f477d)"/>
-					</v:userDefs>
-				</g>
-				<g id="shape52-21" v:mID="52" v:groupContext="groupContent" v:layerMember="0">
-					<path d="M0 249.68 L85.89 249.68 L171.78 249.68 L171.78 84.5 L85.89 84.5 L0 84.5 L0 249.68 Z" class="st1"/>
-				</g>
-			</g>
-			<g id="group54-23" transform="translate(0,-139.663)" v:mID="54" v:groupContext="group" v:layerMember="0">
-				<v:userDefs>
-					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
-					<v:ud v:nameU="CStyle" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="HSide" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HSpan" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HAlign" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Hidden" v:prompt="" v:val="VT0(0):5"/>
-					<v:ud v:nameU="HorzAlign" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Rounding" v:prompt="" v:val="VT0(0):1"/>
-					<v:ud v:nameU="SquareCorners" v:prompt="" v:val="VT0(3):26"/>
-					<v:ud v:nameU="Inset" v:prompt="" v:val="VT0(0):24"/>
-					<v:ud v:nameU="InsideRadius" v:prompt="" v:val="VT0(0):24"/>
-					<v:ud v:nameU="InsetXInt" v:prompt="" v:val="VT0(0):24"/>
-					<v:ud v:nameU="HTxtMargin" v:prompt="" v:val="VT0(0.059055118110236):24"/>
-					<v:ud v:nameU="HTxtWidth" v:prompt="" v:val="VT0(2.9527559055118):24"/>
-					<v:ud v:nameU="HLeft" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HRight" v:prompt="" v:val="VT0(2.9527559055118):24"/>
-					<v:ud v:nameU="SquareCorners7" v:prompt="" v:val="VT0(3):26"/>
-					<v:ud v:nameU="Offset" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Rounding8" v:prompt="" v:val="VT0(0.11811023622047):24"/>
-					<v:ud v:nameU="InsetX9" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="InsetY9" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="OffsetY11" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="OffsetY12" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Width12" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
-					<v:ud v:nameU="HLineVisible" v:prompt="" v:val="VT0(0):5"/>
-					<v:ud v:nameU="HFillVisible" v:prompt="" v:val="VT0(0):5"/>
-					<v:ud v:nameU="FillForegndIn" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="FillBkgndIn" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="FillPatternIn" v:prompt="" v:val="VT0(30):26"/>
-					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
-					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
-					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
-					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
-					<v:ud v:nameU="HTxtWidth" v:prompt="" v:val="VT0(2.3858267221719):1"/>
-					<v:ud v:nameU="HRight" v:prompt="" v:val="VT0(2.3858267221719):1"/>
-					<v:ud v:nameU="FillForegndIn" v:prompt="" v:val="VT5(#000000)"/>
-					<v:ud v:nameU="FillBkgndIn" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="FillPatternIn" v:prompt="" v:val="VT0(30):26"/>
-					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#a5a5a5)"/>
-					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#5c5c5c)"/>
-					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5c5c5c)"/>
-				</v:userDefs>
-				<title>Tabelle.54</title>
-				<desc>recurrent inference</desc>
-				<g id="shape55-24" v:mID="55" v:groupContext="shape" v:layerMember="0">
-					<title>Tabelle.55</title>
-					<v:userDefs>
-						<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="msvThemeColors" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="msvThemeEffects" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="CStyle" v:prompt="" v:val="VT0(1):26"/>
-						<v:ud v:nameU="Rounding" v:prompt="" v:val="VT0(0):1"/>
-						<v:ud v:nameU="SquareCorners" v:prompt="" v:val="VT0(3):26"/>
-						<v:ud v:nameU="HLeft" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HRight" v:prompt="" v:val="VT0(2.9527559055118):24"/>
-						<v:ud v:nameU="Hidden" v:prompt="" v:val="VT0(0):5"/>
-						<v:ud v:nameU="BowHeight7" v:prompt="" v:val="VT0(0.11811023622047):24"/>
-						<v:ud v:nameU="Offset7" v:prompt="" v:val="VT0(0.0052083333333333):3"/>
-						<v:ud v:nameU="AnchorPt7" v:prompt="" v:val="VT0(0.64439796587927):24"/>
-						<v:ud v:nameU="HSide" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HAlign" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HRight" v:prompt="" v:val="VT0(2.3858267221719):1"/>
-						<v:ud v:nameU="Offset7" v:prompt="" v:val="VT0(0.013888888888889):29"/>
-						<v:ud v:nameU="AnchorPt7" v:prompt="" v:val="VT0(0.63571741032371):24"/>
-					</v:userDefs>
-				</g>
-				<g id="shape54-27" v:mID="54" v:groupContext="groupContent" v:layerMember="0">
-					<v:textBlock v:margins="rect(4,6,4,6)" v:tabSpace="42.5197"/>
-					<v:textRect cx="85.8898" cy="236.921" width="171.78" height="25.5118"/>
-					<text x="6" y="240.52" class="st2" v:langID="1031"><v:paragraph/><v:tabList/>recurrent inference</text>				</g>
-			</g>
-		</g>
-		<g id="group82-31" transform="translate(394.151,-41.1091)" v:mID="82" v:groupContext="group" v:layerMember="0">
-			<v:userDefs>
-				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(ContainerStyleDefaults)"/>
-				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Container)"/>
-				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0.11811023622047):24"/>
-				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(1):26"/>
-				<v:ud v:nameU="msvSDContainerLocked" v:prompt="" v:val="VT0(0):5"/>
-				<v:ud v:nameU="msvSDContainerNoHighlight" v:prompt="" v:val="VT0(0):5"/>
-				<v:ud v:nameU="msvSDContainerNoRibbon" v:prompt="" v:val="VT0(0):5"/>
-				<v:ud v:nameU="msvSDContainerStyle" v:prompt="" v:val="VT0(1):26"/>
-				<v:ud v:nameU="msvSDContainerStyleCount" v:prompt="" v:val="VT0(14):26"/>
-				<v:ud v:nameU="msvSDContainerRequiredCategories" v:prompt="" v:val="VT0(0):26"/>
-				<v:ud v:nameU="msvSDContainerExcludedCategories" v:prompt="" v:val="VT4(DoNotContain)"/>
-				<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
-				<v:ud v:nameU="msvSDHeadingStyleCount" v:prompt="" v:val="VT0(4):26"/>
-				<v:ud v:nameU="HeadingSide" v:prompt="" v:val="VT0(0):26"/>
-				<v:ud v:nameU="HeadingSpan" v:prompt="" v:val="VT0(0):26"/>
-				<v:ud v:nameU="HeadingAlign" v:prompt="" v:val="VT0(0):26"/>
-				<v:ud v:nameU="RTL" v:prompt="" v:val="VT0(0):5"/>
-				<v:ud v:nameU="FnForceContrast" v:prompt="" v:val="VT5(#ffffff)"/>
-				<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT0(1):26"/>
-				<v:ud v:nameU="HColor1" v:prompt="" v:val="VT5(#ffffff)"/>
-				<v:ud v:nameU="HColor2" v:prompt="" v:val="VT5(#fefefe)"/>
-				<v:ud v:nameU="HColor3" v:prompt="" v:val="VT5(#e9e9e9)"/>
-				<v:ud v:nameU="HColor4" v:prompt="" v:val="VT5(#efefef)"/>
-				<v:ud v:nameU="BColor1" v:prompt="" v:val="VT5(#ffffff)"/>
-				<v:ud v:nameU="BColor2" v:prompt="" v:val="VT5(#ffffff)"/>
-				<v:ud v:nameU="LineColor" v:prompt="" v:val="VT5(#d5d5d5)"/>
-				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
-				<v:ud v:nameU="Embellishment" v:prompt="" v:val="VT0(2):26"/>
-				<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT5(#ffffff)"/>
-			</v:userDefs>
-			<title>Einfach.82</title>
-			<g id="group83-32" v:mID="83" v:groupContext="group" v:layerMember="0">
-				<v:userDefs>
-					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="CStyle" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="HSide" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HSpan" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HAlign" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HorzAlign" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="SquareCorners" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Corner6" v:prompt="" v:val="VT0(0.19685039370079):24"/>
-					<v:ud v:nameU="FillForegndIn" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="FillBkgndIn" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="FillPatternIn" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
-					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
-					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#1f477d)"/>
-					<v:ud v:nameU="FillForegndIn" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="FillBkgndIn" v:prompt="" v:val="VT5(#000000)"/>
-					<v:ud v:nameU="FillPatternIn" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#a5a5a5)"/>
-					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#a5a5a5)"/>
-				</v:userDefs>
-				<title>Tabelle.83</title>
-				<g id="shape84-33" v:mID="84" v:groupContext="shape" v:layerMember="0" transform="translate(2.83465,2.83465)">
-					<title>Tabelle.84</title>
-					<v:userDefs>
-						<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="msvThemeColors" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="msvThemeEffects" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="CStyle" v:prompt="" v:val="VT0(1):26"/>
-						<v:ud v:nameU="HSide" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HSpan" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HAlign" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HorzAlign" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="SquareCorners" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="OffsetX10" v:prompt="" v:val="VT0(0.039370078740157):24"/>
-						<v:ud v:nameU="OffsetY10" v:prompt="" v:val="VT0(-0.039370078740157):24"/>
-						<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
-						<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
-						<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#1f477d)"/>
-					</v:userDefs>
-				</g>
-				<g id="shape83-35" v:mID="83" v:groupContext="groupContent" v:layerMember="0">
-					<path d="M0 249.68 L85.89 249.68 L171.78 249.68 L171.78 84.34 L85.89 84.34 L0 84.34 L0 249.68 Z" class="st1"/>
-				</g>
-			</g>
-			<g id="group85-37" transform="translate(0,-139.828)" v:mID="85" v:groupContext="group" v:layerMember="0">
-				<v:userDefs>
-					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
-					<v:ud v:nameU="CStyle" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="HSide" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HSpan" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HAlign" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Hidden" v:prompt="" v:val="VT0(0):5"/>
-					<v:ud v:nameU="HorzAlign" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Rounding" v:prompt="" v:val="VT0(0):1"/>
-					<v:ud v:nameU="SquareCorners" v:prompt="" v:val="VT0(3):26"/>
-					<v:ud v:nameU="Inset" v:prompt="" v:val="VT0(0):24"/>
-					<v:ud v:nameU="InsideRadius" v:prompt="" v:val="VT0(0):24"/>
-					<v:ud v:nameU="InsetXInt" v:prompt="" v:val="VT0(0):24"/>
-					<v:ud v:nameU="HTxtMargin" v:prompt="" v:val="VT0(0.059055118110236):24"/>
-					<v:ud v:nameU="HTxtWidth" v:prompt="" v:val="VT0(2.9527559055118):24"/>
-					<v:ud v:nameU="HLeft" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="HRight" v:prompt="" v:val="VT0(2.9527559055118):24"/>
-					<v:ud v:nameU="SquareCorners7" v:prompt="" v:val="VT0(3):26"/>
-					<v:ud v:nameU="Offset" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Rounding8" v:prompt="" v:val="VT0(0.11811023622047):24"/>
-					<v:ud v:nameU="InsetX9" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="InsetY9" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="OffsetY11" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="OffsetY12" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="Width12" v:prompt="" v:val="VT0(0):26"/>
-					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
-					<v:ud v:nameU="HLineVisible" v:prompt="" v:val="VT0(0):5"/>
-					<v:ud v:nameU="HFillVisible" v:prompt="" v:val="VT0(0):5"/>
-					<v:ud v:nameU="FillForegndIn" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="FillBkgndIn" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT0(1):26"/>
-					<v:ud v:nameU="FillPatternIn" v:prompt="" v:val="VT0(30):26"/>
-					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
-					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
-					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
-					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
-					<v:ud v:nameU="HTxtWidth" v:prompt="" v:val="VT0(2.3858267221719):1"/>
-					<v:ud v:nameU="HRight" v:prompt="" v:val="VT0(2.3858267221719):1"/>
-					<v:ud v:nameU="FillForegndIn" v:prompt="" v:val="VT5(#000000)"/>
-					<v:ud v:nameU="FillBkgndIn" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="BaseColor" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="FillPatternIn" v:prompt="" v:val="VT0(30):26"/>
-					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#ffffff)"/>
-					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#a5a5a5)"/>
-					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#5c5c5c)"/>
-					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5c5c5c)"/>
-				</v:userDefs>
-				<title>Tabelle.85</title>
-				<desc>recurrent inference</desc>
-				<g id="shape86-38" v:mID="86" v:groupContext="shape" v:layerMember="0">
-					<title>Tabelle.86</title>
-					<v:userDefs>
-						<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="msvThemeColors" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="msvThemeEffects" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="CStyle" v:prompt="" v:val="VT0(1):26"/>
-						<v:ud v:nameU="Rounding" v:prompt="" v:val="VT0(0):1"/>
-						<v:ud v:nameU="SquareCorners" v:prompt="" v:val="VT0(3):26"/>
-						<v:ud v:nameU="HLeft" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HRight" v:prompt="" v:val="VT0(2.9527559055118):24"/>
-						<v:ud v:nameU="Hidden" v:prompt="" v:val="VT0(0):5"/>
-						<v:ud v:nameU="BowHeight7" v:prompt="" v:val="VT0(0.11811023622047):24"/>
-						<v:ud v:nameU="Offset7" v:prompt="" v:val="VT0(0.0052083333333333):3"/>
-						<v:ud v:nameU="AnchorPt7" v:prompt="" v:val="VT0(0.64439796587927):24"/>
-						<v:ud v:nameU="HSide" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HAlign" v:prompt="" v:val="VT0(0):26"/>
-						<v:ud v:nameU="HRight" v:prompt="" v:val="VT0(2.3858267221719):1"/>
-						<v:ud v:nameU="Offset7" v:prompt="" v:val="VT0(0.013888888888889):29"/>
-						<v:ud v:nameU="AnchorPt7" v:prompt="" v:val="VT0(0.63571741032371):24"/>
-					</v:userDefs>
-				</g>
-				<g id="shape85-41" v:mID="85" v:groupContext="groupContent" v:layerMember="0">
-					<v:textBlock v:margins="rect(4,6,4,6)" v:tabSpace="42.5197"/>
-					<v:textRect cx="85.8898" cy="236.921" width="171.78" height="25.5118"/>
-					<text x="6" y="240.52" class="st2" v:langID="1031"><v:paragraph/><v:tabList/>recurrent inference</text>				</g>
-			</g>
-		</g>
-		<g id="shape14-45" v:mID="14" v:groupContext="shape" transform="translate(29.3465,-64.2283)">
-			<title>Rechteck.14</title>
-			<desc>representation</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="60.7323" cy="234.739" width="121.47" height="29.8763"/>
-			<rect x="0" y="219.801" width="121.465" height="29.8763" class="st3"/>
-			<text x="24.35" y="238.34" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>representation</text>		</g>
-		<g id="shape15-48" v:mID="15" v:groupContext="shape" transform="translate(29.3465,-142.391)">
-			<title>Rechteck.15</title>
-			<desc>prediction</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="60.7323" cy="234.739" width="121.47" height="29.8763"/>
-			<rect x="0" y="219.801" width="121.465" height="29.8763" class="st3"/>
-			<text x="35.73" y="238.34" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>prediction</text>		</g>
-		<g id="group17-51" transform="translate(52.0979,-94.9674)" v:mID="17" v:groupContext="group">
-			<title>Tabelle.17</title>
-			<g id="shape18-52" v:mID="18" v:groupContext="shape" transform="translate(38.8417,-4.98201)">
-				<title>Tabelle.18</title>
-				<desc>hidden state</desc>
-				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-				<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-				<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-				<text x="8.1" y="243.28" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>hidden state</text>			</g>
-			<g id="shape19-55" v:mID="19" v:groupContext="shape" transform="translate(32.9935,-19.8448)">
-				<title>Quadrat.28</title>
-				<v:userDefs>
-					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-				</v:userDefs>
-				<rect x="0" y="239.558" width="10.1192" height="10.1192" class="st7"/>
-			</g>
-		</g>
-		<g id="shape20-57" v:mID="20" v:groupContext="shape" v:layerMember="1" transform="translate(83.0283,-94.1046)">
-			<title>Dynamischer Verbinder.20</title>
-			<path d="M7.05 249.68 L7.1 236.01" class="st8"/>
-		</g>
-		<g id="shape21-63" v:mID="21" v:groupContext="shape" v:layerMember="1" transform="translate(97.2015,-124.931)">
-			<title>Dynamischer Verbinder.21</title>
-			<path d="M-7.05 249.68 L-7.09 239.26" class="st8"/>
-		</g>
-		<g id="shape37-68" v:mID="37" v:groupContext="shape" transform="translate(51.3532,-1.34196)">
-			<title>Tabelle.37</title>
-			<desc>observation</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-			<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-			<text x="9.63" y="243.28" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>observation</text>		</g>
-		<g id="shape38-71" v:mID="38" v:groupContext="shape" transform="translate(84.9494,-21.279)">
-			<title>Quadrat.38</title>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<rect x="0" y="239.558" width="10.1192" height="10.1192" class="st7"/>
-		</g>
-		<g id="shape39-73" v:mID="39" v:groupContext="shape" v:layerMember="1" transform="translate(82.9572,-31.3982)">
-			<title>Dynamischer Verbinder.39</title>
-			<path d="M7.05 249.68 L7.11 223.89" class="st8"/>
-		</g>
-		<g id="shape45-78" v:mID="45" v:groupContext="shape" transform="translate(30.2379,-225.399)">
-			<title>Tabelle.45</title>
-			<desc>value</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-			<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-			<text x="25.56" y="243.28" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>value</text>		</g>
-		<g id="shape46-81" v:mID="46" v:groupContext="shape" transform="translate(63.5101,-216.407)">
-			<title>Quadrat.46</title>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<rect x="0" y="239.558" width="10.1192" height="10.1192" class="st7"/>
-		</g>
-		<g id="shape47-83" v:mID="47" v:groupContext="shape" transform="translate(73.6181,-225.399)">
-			<title>Tabelle.47</title>
-			<desc>policy</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-			<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-			<text x="24.33" y="243.28" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>policy</text>		</g>
-		<g id="shape48-86" v:mID="48" v:groupContext="shape" transform="translate(106.089,-216.407)">
-			<title>Quadrat.48</title>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<rect x="0" y="239.558" width="10.1192" height="10.1192" class="st7"/>
-		</g>
-		<g id="shape49-88" v:mID="49" v:groupContext="shape" v:layerMember="1" transform="translate(75.75,-172.268)">
-			<title>Dynamischer Verbinder.49</title>
-			<path d="M-6.99 249.68 L-7.15 212.58" class="st8"/>
-		</g>
-		<g id="shape50-93" v:mID="50" v:groupContext="shape" v:layerMember="1" transform="translate(118.299,-172.268)">
-			<title>Dynamischer Verbinder.50</title>
-			<path d="M-7.02 249.68 L-7.13 212.58" class="st8"/>
-		</g>
-		<g id="shape56-98" v:mID="56" v:groupContext="shape" transform="translate(225.455,-64.2283)">
-			<title>Rechteck.56</title>
-			<desc>dynamics</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="60.7323" cy="234.739" width="121.47" height="29.8763"/>
-			<rect x="0" y="219.801" width="121.465" height="29.8763" class="st3"/>
-			<text x="37.78" y="238.34" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>dynamics</text>		</g>
-		<g id="shape57-101" v:mID="57" v:groupContext="shape" transform="translate(225.455,-142.391)">
-			<title>Rechteck.57</title>
-			<desc>prediction</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="60.7323" cy="234.739" width="121.47" height="29.8763"/>
-			<rect x="0" y="219.801" width="121.465" height="29.8763" class="st3"/>
-			<text x="35.73" y="238.34" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>prediction</text>		</g>
-		<g id="group58-104" transform="translate(248.207,-94.9674)" v:mID="58" v:groupContext="group">
-			<title>Tabelle.58</title>
-			<g id="shape59-105" v:mID="59" v:groupContext="shape" transform="translate(38.7081,-5.3385)">
-				<title>Tabelle.59</title>
-				<desc>hidden state</desc>
-				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-				<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-				<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-				<text x="8.1" y="243.28" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>hidden state</text>			</g>
-			<g id="shape60-108" v:mID="60" v:groupContext="shape" transform="translate(32.9935,-19.8448)">
-				<title>Quadrat.28</title>
-				<v:userDefs>
-					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-				</v:userDefs>
-				<rect x="0" y="239.558" width="10.1192" height="10.1192" class="st7"/>
-			</g>
-		</g>
-		<g id="shape61-110" v:mID="61" v:groupContext="shape" v:layerMember="1" transform="translate(279.137,-94.1046)">
-			<title>Dynamischer Verbinder.61</title>
-			<path d="M7.05 249.68 L7.1 236.01" class="st8"/>
-		</g>
-		<g id="shape62-115" v:mID="62" v:groupContext="shape" v:layerMember="1" transform="translate(293.31,-124.931)">
-			<title>Dynamischer Verbinder.62</title>
-			<path d="M-7.05 249.68 L-7.09 239.26" class="st8"/>
-		</g>
-		<g id="shape69-120" v:mID="69" v:groupContext="shape" v:layerMember="1" transform="translate(95.2106,-119.872)">
-			<title>Dynamischer Verbinder.69</title>
-			<path d="M0 249.68 L90.05 249.68 L90.05 318.14 L190.98 318.14 L190.98 312.36" class="st8"/>
-		</g>
-		<g id="shape70-125" v:mID="70" v:groupContext="shape" transform="translate(247.887,-225.069)">
-			<title>Tabelle.70</title>
-			<desc>value</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-			<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-			<text x="25.56" y="243.28" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>value</text>		</g>
-		<g id="shape71-128" v:mID="71" v:groupContext="shape" transform="translate(281.159,-216.076)">
-			<title>Quadrat.32</title>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<rect x="0" y="239.558" width="10.1192" height="10.1192" class="st7"/>
-		</g>
-		<g id="shape72-130" v:mID="72" v:groupContext="shape" transform="translate(282.789,-225.069)">
-			<title>Tabelle.72</title>
-			<desc>policy</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-			<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-			<text x="24.33" y="243.28" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>policy</text>		</g>
-		<g id="shape73-133" v:mID="73" v:groupContext="shape" transform="translate(314.507,-216.076)">
-			<title>Quadrat.34</title>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<rect x="0" y="239.558" width="10.1192" height="10.1192" class="st7"/>
-		</g>
-		<g id="shape74-135" v:mID="74" v:groupContext="shape" v:layerMember="1" transform="translate(279.116,-172.268)">
-			<title>Dynamischer Verbinder.35</title>
-			<path d="M7.07 249.68 L7.1 212.91" class="st8"/>
-		</g>
-		<g id="shape75-140" v:mID="75" v:groupContext="shape" v:layerMember="1" transform="translate(312.479,-172.268)">
-			<title>Dynamischer Verbinder.36</title>
-			<path d="M7.09 249.68 L7.09 212.91" class="st8"/>
-		</g>
-		<g id="shape76-145" v:mID="76" v:groupContext="shape" transform="translate(207.07,-215.865)">
-			<title>Quadrat.41</title>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<rect x="0" y="239.558" width="10.1192" height="10.1192" class="st7"/>
-		</g>
-		<g id="shape77-147" v:mID="77" v:groupContext="shape" v:layerMember="1" transform="translate(251.87,-94.1046)">
-			<title>Dynamischer Verbinder.42</title>
-			<path d="M0 249.68 L0 226.14 L-39.74 226.14 L-39.74 134.96" class="st8"/>
-		</g>
-		<g id="shape78-152" v:mID="78" v:groupContext="shape" transform="translate(173.144,-225.008)">
-			<title>Tabelle.78</title>
-			<desc>reward</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-			<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-			<text x="21.17" y="243.28" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>reward</text>		</g>
-		<g id="shape79-155" v:mID="79" v:groupContext="shape" transform="translate(247.682,-1.51405)">
-			<title>Tabelle.79</title>
-			<desc>action</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-			<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-			<text x="23.54" y="243.28" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>action</text>		</g>
-		<g id="shape80-158" v:mID="80" v:groupContext="shape" transform="translate(281.054,-21.0911)">
-			<title>Quadrat.20</title>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<rect x="0" y="239.558" width="10.1192" height="10.1192" class="st7"/>
-		</g>
-		<g id="shape81-160" v:mID="81" v:groupContext="shape" v:layerMember="1" transform="translate(279.064,-31.2103)">
-			<title>Dynamischer Verbinder.81</title>
-			<path d="M7.05 249.68 L7.11 223.7" class="st8"/>
-		</g>
-		<g id="shape87-165" v:mID="87" v:groupContext="shape" transform="translate(422.497,-64.3937)">
-			<title>Rechteck.87</title>
-			<desc>dynamics</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="60.7323" cy="234.739" width="121.47" height="29.8763"/>
-			<rect x="0" y="219.801" width="121.465" height="29.8763" class="st3"/>
-			<text x="37.78" y="238.34" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>dynamics</text>		</g>
-		<g id="shape88-168" v:mID="88" v:groupContext="shape" transform="translate(422.497,-142.557)">
-			<title>Rechteck.88</title>
-			<desc>prediction</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="60.7323" cy="234.739" width="121.47" height="29.8763"/>
-			<rect x="0" y="219.801" width="121.465" height="29.8763" class="st3"/>
-			<text x="35.73" y="238.34" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>prediction</text>		</g>
-		<g id="group89-171" transform="translate(445.248,-95.1327)" v:mID="89" v:groupContext="group">
-			<title>Tabelle.89</title>
-			<g id="shape90-172" v:mID="90" v:groupContext="shape" transform="translate(38.7081,-5.3385)">
-				<title>Tabelle.90</title>
-				<desc>hidden state</desc>
-				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-				<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-				<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-				<text x="8.1" y="243.28" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>hidden state</text>			</g>
-			<g id="shape91-175" v:mID="91" v:groupContext="shape" transform="translate(32.9935,-19.8448)">
-				<title>Quadrat.28</title>
-				<v:userDefs>
-					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-				</v:userDefs>
-				<rect x="0" y="239.558" width="10.1192" height="10.1192" class="st7"/>
-			</g>
-		</g>
-		<g id="shape92-177" v:mID="92" v:groupContext="shape" v:layerMember="1" transform="translate(476.179,-94.27)">
-			<title>Dynamischer Verbinder.92</title>
-			<path d="M7.05 249.68 L7.1 236.01" class="st8"/>
-		</g>
-		<g id="shape93-182" v:mID="93" v:groupContext="shape" v:layerMember="1" transform="translate(490.352,-125.097)">
-			<title>Dynamischer Verbinder.93</title>
-			<path d="M-7.05 249.68 L-7.09 239.26" class="st8"/>
-		</g>
-		<g id="shape95-187" v:mID="95" v:groupContext="shape" transform="translate(444.929,-225.234)">
-			<title>Tabelle.95</title>
-			<desc>value</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-			<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-			<text x="25.56" y="243.28" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>value</text>		</g>
-		<g id="shape96-190" v:mID="96" v:groupContext="shape" transform="translate(478.201,-216.242)">
-			<title>Quadrat.96</title>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<rect x="0" y="239.558" width="10.1192" height="10.1192" class="st7"/>
-		</g>
-		<g id="shape97-192" v:mID="97" v:groupContext="shape" transform="translate(479.831,-225.234)">
-			<title>Tabelle.97</title>
-			<desc>policy</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-			<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-			<text x="24.33" y="243.28" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>policy</text>		</g>
-		<g id="shape98-195" v:mID="98" v:groupContext="shape" transform="translate(511.549,-216.242)">
-			<title>Quadrat.98</title>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<rect x="0" y="239.558" width="10.1192" height="10.1192" class="st7"/>
-		</g>
-		<g id="shape99-197" v:mID="99" v:groupContext="shape" v:layerMember="1" transform="translate(476.158,-172.433)">
-			<title>Dynamischer Verbinder.99</title>
-			<path d="M7.07 249.68 L7.1 212.91" class="st8"/>
-		</g>
-		<g id="shape100-202" v:mID="100" v:groupContext="shape" v:layerMember="1" transform="translate(509.521,-172.433)">
-			<title>Dynamischer Verbinder.100</title>
-			<path d="M7.09 249.68 L7.09 212.91" class="st8"/>
-		</g>
-		<g id="shape101-207" v:mID="101" v:groupContext="shape" transform="translate(404.112,-216.031)">
-			<title>Quadrat.101</title>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<rect x="0" y="239.558" width="10.1192" height="10.1192" class="st7"/>
-		</g>
-		<g id="shape102-209" v:mID="102" v:groupContext="shape" v:layerMember="1" transform="translate(448.912,-94.27)">
-			<title>Dynamischer Verbinder.102</title>
-			<path d="M0 249.68 L0 226.14 L-39.74 226.14 L-39.74 134.96" class="st8"/>
-		</g>
-		<g id="shape103-214" v:mID="103" v:groupContext="shape" transform="translate(444.724,-1.67942)">
-			<title>Tabelle.103</title>
-			<desc>action</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-			<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-			<text x="23.54" y="243.28" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>action</text>		</g>
-		<g id="shape104-217" v:mID="104" v:groupContext="shape" transform="translate(478.095,-21.2565)">
-			<title>Quadrat.104</title>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<rect x="0" y="239.558" width="10.1192" height="10.1192" class="st7"/>
-		</g>
-		<g id="shape105-219" v:mID="105" v:groupContext="shape" v:layerMember="1" transform="translate(476.106,-31.3757)">
-			<title>Dynamischer Verbinder.105</title>
-			<path d="M7.05 249.68 L7.11 223.7" class="st8"/>
-		</g>
-		<g id="shape106-224" v:mID="106" v:groupContext="shape" transform="translate(370.22,-223.749)">
-			<title>Tabelle.106</title>
-			<desc>reward</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-			<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-			<text x="21.17" y="243.28" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>reward</text>		</g>
-		<g id="shape107-227" v:mID="107" v:groupContext="shape" v:layerMember="1" transform="translate(291.319,-119.872)">
-			<title>Dynamischer Verbinder.107</title>
-			<path d="M0 249.68 L89.78 249.68 L89.78 317.83 L191.91 317.83 L191.91 312.2" class="st8"/>
-		</g>
-		<g id="shape118-232" v:mID="118" v:groupContext="shape" transform="translate(385.102,-1)">
-			<title>Rechteck</title>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<rect x="0" y="1.99999" width="191.339" height="247.677" class="st10"/>
-		</g>
-		<g id="shape108-234" v:mID="108" v:groupContext="shape" transform="translate(349.668,-49.613)">
-			<title>Tabelle.108</title>
-			<desc>...</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="38.6558" cy="239.677" width="77.32" height="20"/>
-			<rect x="0" y="229.677" width="77.3116" height="20" class="st5"/>
-			<text x="27.3" y="248.68" class="st11" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>...</text>		</g>
-	</g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="615.995" height="309.88"
+     viewBox="0 0 162.982 81.989" xmlns:v="https://vecta.io/nano">
+  <style>
+    <![CDATA[.B{fill:none}.C{stroke-linejoin:round}.D{stroke-miterlimit:10}.E{fill:#999}.F{stroke-linecap:round}.G{stroke-width:.706}.H{stroke:#a5a5a5}.I{stroke-width:.353}.J{fill:#a5a5a5}.K{fill-rule:evenodd}.L{font-family:Calibri}.M{writing-mode:lr-tb}.N{font-size:4.241px}.O{fill:#ea5e13}.P{stroke:#ea5e13}.Q{fill:#5c5c5c}.R{stroke:#00b4ff}.S{fill-opacity:0}.T{stroke-dasharray:1.877, 3.754}]]></style>
+  <path d="M.353 70.152h62.011V11.863H.353z" class="B C D F G R T"/>
+  <path
+    d="M3.195 17.593v.023c-.023.023-.023.023-.045.023 0 0-.023.023-.045.023h-.09-.09c-.045 0-.045-.023-.068-.023s-.023 0-.023-.023c-.023 0-.023-.023-.023-.023v-1.85c0-.023 0-.023.023-.045l.023-.023h.068.09.09.045c.023.023.023.023.045.023v.045zm.045-2.481c0 .068-.023.135-.045.158a.45.45 0 0 1-.203.045c-.068 0-.135-.023-.18-.045-.023-.023-.045-.09-.045-.158 0-.09.023-.135.068-.158.023-.045.09-.045.18-.045s.135 0 .18.045c.023.023.045.068.045.158zm2.391 2.481v.023c0 .023-.023.023-.023.023-.023 0-.045.023-.068.023h-.09-.09c-.023 0-.045-.023-.045-.023-.023 0-.045 0-.045-.023V16.51c0-.113-.023-.203-.023-.271-.023-.068-.045-.113-.09-.158-.023-.045-.068-.09-.135-.113-.045-.023-.113-.045-.18-.045-.113 0-.203.045-.293.113-.09.045-.18.135-.293.248v1.331c-.023.023-.023.023-.045.023 0 0-.023.023-.045.023h-.09-.09c-.045 0-.045-.023-.068-.023s-.023 0-.023-.023c-.023 0-.023-.023-.023-.023v-1.85c0-.023 0-.023.023-.045l.023-.023h.045.09.09.045c0 .023.023.023.023.023v.045.226c.113-.113.248-.203.361-.248s.226-.09.338-.09c.135 0 .248.023.338.068s.18.113.226.18c.068.068.113.135.135.248.023.09.023.203.023.338zm1.083 0v.023c-.023.023-.023.023-.045.023 0 0-.023.023-.045.023h-.09-.09c-.045 0-.045-.023-.068-.023s-.023 0-.023-.023c-.023 0-.023-.023-.023-.023v-1.85c0-.023 0-.023.023-.045l.023-.023h.068.09.09.045c.023.023.023.023.045.023v.045zm.045-2.481c0 .068-.023.135-.045.158a.45.45 0 0 1-.203.045c-.068 0-.135-.023-.18-.045-.023-.023-.045-.09-.045-.158 0-.09.023-.135.068-.158.023-.045.09-.045.18-.045s.135 0 .18.045c.023.023.045.068.045.158zm1.692 2.346v.09c0 .023-.023.045-.023.045-.023.023-.023.023-.068.045-.023 0-.045.023-.068.023-.045 0-.068 0-.113.023h-.09a.84.84 0 0 1-.271-.045c-.09-.023-.135-.068-.203-.113-.045-.045-.068-.113-.09-.203a.84.84 0 0 1-.045-.271v-1.083h-.271c-.023 0-.045-.023-.068-.045 0-.023-.023-.045-.023-.113v-.045c.023-.023.023-.045.023-.045 0-.023.023-.023.023-.045h.045.271v-.429c0-.023 0-.023.023-.045l.023-.023h.045.09.113.045l.023.023c.023.023.023.023.023.045v.429h.519.045c0 .023 0 .023.023.045v.045.045.113c-.023.023-.045.045-.068.045h-.519v1.038c0 .113.023.226.068.293.023.045.113.09.226.09h.09c.023-.023.045-.023.068-.023.023-.023.045-.023.045-.023.023-.023.045-.023.045-.023.023 0 .023 0 .023.023h.023v.045.068zm.88.135v.023c-.023.023-.023.023-.045.023 0 0-.023.023-.045.023h-.09-.09c-.045 0-.045-.023-.068-.023s-.023 0-.023-.023c-.023 0-.023-.023-.023-.023v-1.85c0-.023 0-.023.023-.045l.023-.023h.068.09.09.045c.023.023.023.023.045.023v.045zm.045-2.481c0 .068-.023.135-.045.158a.45.45 0 0 1-.203.045c-.068 0-.135-.023-.18-.045-.023-.023-.045-.09-.045-.158 0-.09.023-.135.068-.158.023-.045.09-.045.18-.045s.135 0 .18.045c.023.023.045.068.045.158zm2.211 2.481c0 .023-.023.023-.023.045-.023 0-.023 0-.045.023h-.113-.09c-.023-.023-.023-.023-.045-.023 0-.023-.023-.023-.023-.045v-.18c-.09.09-.18.158-.293.203s-.226.068-.338.068-.203-.023-.293-.045-.18-.045-.226-.113c-.068-.045-.113-.09-.158-.158-.023-.09-.045-.158-.045-.248a.48.48 0 0 1 .068-.271c.045-.09.113-.135.203-.203a1.19 1.19 0 0 1 .338-.113c.113-.023.271-.023.429-.023h.271v-.158c0-.068 0-.135-.023-.18-.023-.068-.045-.113-.09-.135-.023-.045-.068-.068-.135-.09s-.135-.023-.226-.023-.158 0-.248.023l-.18.068c-.068.023-.113.045-.135.068-.045.023-.068.023-.09.023h-.023c-.023 0-.023-.023-.045-.023v-.045-.068-.068c0-.023.023-.045.045-.068a.31.31 0 0 1 .09-.068l.18-.068a.66.66 0 0 0 .203-.045c.09 0 .158-.023.248-.023.135 0 .271.023.383.045l.248.135.135.226c.023.09.045.18.045.293zm-.383-.857h-.316c-.113 0-.203.023-.271.023-.068.023-.135.045-.18.09-.068.023-.09.068-.113.113-.023.023-.045.09-.045.135 0 .09.045.18.113.226.068.068.158.09.271.09a.48.48 0 0 0 .271-.068 1.06 1.06 0 0 0 .271-.203zm1.444.857v.023c-.023.023-.023.023-.045.023 0 0-.023.023-.045.023h-.09-.09c-.045 0-.045-.023-.068-.023s-.023 0-.023-.023c-.023 0-.023-.023-.023-.023v-2.752c0-.023 0-.023.023-.045l.023-.023h.068.09.09.045c.023.023.023.023.045.023v.045zm2.12 0v.023c-.023.023-.023.023-.045.023 0 0-.023.023-.045.023h-.09-.09c-.045 0-.045-.023-.068-.023s-.023 0-.023-.023c-.023 0-.023-.023-.023-.023v-1.85c0-.023 0-.023.023-.045l.023-.023h.068.09.09.045c.023.023.023.023.045.023v.045zm.045-2.481c0 .068-.023.135-.045.158a.45.45 0 0 1-.203.045c-.068 0-.135-.023-.18-.045-.023-.023-.045-.09-.045-.158 0-.09.023-.135.068-.158.023-.045.09-.045.18-.045s.135 0 .18.045c.023.023.045.068.045.158zm2.391 2.481v.023c0 .023-.023.023-.023.023-.023 0-.045.023-.068.023h-.09-.09c-.023 0-.045-.023-.045-.023-.023 0-.045 0-.045-.023V16.51c0-.113-.023-.203-.023-.271-.023-.068-.045-.113-.09-.158-.023-.045-.068-.09-.135-.113-.045-.023-.113-.045-.18-.045-.113 0-.203.045-.293.113-.09.045-.18.135-.293.248v1.331c-.023.023-.023.023-.045.023 0 0-.023.023-.045.023h-.09-.09c-.045 0-.045-.023-.068-.023s-.023 0-.023-.023c-.023 0-.023-.023-.023-.023v-1.85c0-.023 0-.023.023-.045l.023-.023h.045.09.09.045c0 .023.023.023.023.023v.045.226c.113-.113.248-.203.361-.248s.226-.09.338-.09c.135 0 .248.023.338.068s.18.113.226.18c.068.068.113.135.135.248.023.09.023.203.023.338zm1.827-2.617v.045c0 .023 0 .045-.023.045v.023h-.023-.045c-.023-.023-.045-.023-.068-.023s-.045-.023-.068-.023h-.113c-.068 0-.113 0-.135.023-.045 0-.09.045-.113.068-.023.045-.023.09-.045.135 0 .068-.023.135-.023.203v.203h.496c0 .023.023.023.023.045 0 0 .023.023.023.045v.045c0 .068 0 .09-.023.113s-.023.045-.045.045h-.474v1.647c0 .023-.023.023-.023.023-.023 0-.045.023-.068.023h-.09-.09c-.023 0-.045-.023-.068-.023 0 0-.023 0-.023-.023v-1.647h-.293c-.023 0-.045-.023-.068-.045v-.113-.045-.045c.023-.023.023-.023.023-.045h.045.293v-.18c0-.135 0-.248.023-.338.045-.09.068-.18.135-.226.045-.068.113-.113.203-.135s.18-.045.293-.045c.045 0 .113 0 .158.023.045 0 .09 0 .113.023.023 0 .045.023.045.023.023 0 .023.023.023.045.023 0 .023.023.023.045v.068zm2.053 1.602c0 .068-.023.09-.045.113-.045.023-.068.045-.113.045h-1.353c0 .09.023.18.045.271s.068.158.113.226c.045.045.135.09.203.135a1.33 1.33 0 0 0 .316.045c.09 0 .18-.023.271-.023.068-.023.135-.045.18-.045a1.1 1.1 0 0 0 .158-.068h.068.023c.023 0 .023 0 .023.023 0 0 .023.023.023.045v.045.045.045c-.023 0-.023.023-.023.023 0 .023 0 .023-.023.023 0 .023-.023.023-.068.045s-.09.023-.158.045-.135.045-.226.045c-.09.023-.18.023-.271.023-.18 0-.316-.023-.451-.068s-.226-.113-.316-.18c-.09-.09-.158-.203-.203-.316-.045-.135-.068-.271-.068-.451 0-.158.023-.293.068-.429s.113-.226.203-.316.18-.158.316-.203c.113-.068.248-.09.406-.09s.293.023.406.068c.113.068.203.113.271.203.09.068.135.18.158.271.045.113.068.226.068.338zm-.383-.09a.65.65 0 0 0-.135-.429c-.09-.113-.226-.158-.406-.158a.81.81 0 0 0-.248.045 1.25 1.25 0 0 0-.18.135c-.045.045-.068.113-.113.18-.023.068-.023.135-.045.226zm2.12-.632v.068.045c0 .023-.023.023-.023.045h-.023-.045c-.023-.023-.045-.023-.068-.023s-.045-.023-.068-.023h-.09c-.045 0-.068 0-.113.023-.045 0-.068.023-.113.068-.045.023-.09.068-.135.113-.045.068-.09.113-.135.203v1.241c-.023.023-.023.023-.045.023 0 0-.023.023-.045.023h-.09-.09c-.045 0-.045-.023-.068-.023s-.023 0-.023-.023c-.023 0-.023-.023-.023-.023v-1.85c0-.023 0-.023.023-.045l.023-.023h.045.09.09.045c0 .023.023.023.023.023v.045.271l.158-.203c.068-.045.113-.068.158-.09.023-.045.068-.045.113-.068.045 0 .09-.023.135-.023.023 0 .045 0 .068.023h.09c.023 0 .045.023.068.023s.045 0 .045.023c0 0 .023 0 .023.023v.023.045.068zm2.188.722c0 .068-.023.09-.045.113-.045.023-.068.045-.113.045h-1.353c0 .09.023.18.045.271s.068.158.113.226c.045.045.135.09.203.135a1.33 1.33 0 0 0 .316.045c.09 0 .18-.023.271-.023.068-.023.135-.045.18-.045.068-.023.113-.045.158-.068h.068.023c.023 0 .023 0 .023.023 0 0 .023.023.023.045v.045.045.045c-.023 0-.023.023-.023.023 0 .023 0 .023-.023.023 0 .023-.023.023-.068.045s-.09.023-.158.045-.135.045-.226.045c-.09.023-.18.023-.271.023-.18 0-.316-.023-.451-.068s-.226-.113-.316-.18c-.09-.09-.158-.203-.203-.316-.045-.135-.068-.271-.068-.451 0-.158.023-.293.068-.429s.113-.226.203-.316.18-.158.316-.203c.113-.068.248-.09.406-.09s.293.023.406.068c.113.068.203.113.271.203.09.068.135.18.158.271.045.113.068.226.068.338zm-.383-.09a.65.65 0 0 0-.135-.429c-.09-.113-.226-.158-.406-.158a.81.81 0 0 0-.248.045 1.25 1.25 0 0 0-.18.135c-.045.045-.068.113-.113.18-.023.068-.023.135-.045.226zm2.707 1.105v.023c0 .023-.023.023-.023.023-.023 0-.045.023-.068.023h-.09-.09c-.023 0-.045-.023-.045-.023-.023 0-.045 0-.045-.023V16.51c0-.113-.023-.203-.023-.271-.023-.068-.045-.113-.09-.158-.023-.045-.068-.09-.135-.113-.045-.023-.113-.045-.18-.045-.113 0-.203.045-.293.113-.09.045-.18.135-.293.248v1.331c-.023.023-.023.023-.045.023 0 0-.023.023-.045.023h-.09-.09c-.045 0-.045-.023-.068-.023s-.023 0-.023-.023c-.023 0-.023-.023-.023-.023v-1.85c0-.023 0-.023.023-.045l.023-.023h.045.09.09.045c0 .023.023.023.023.023v.045.226c.113-.113.248-.203.361-.248s.226-.09.338-.09c.135 0 .248.023.338.068s.18.113.226.18c.068.068.113.135.135.248.023.09.023.203.023.338zm2.188-.293c0 .023-.023.045-.023.068v.045c0 .023 0 .023-.023.023 0 .023 0 .023-.023.045s-.045.045-.09.068-.113.045-.158.068c-.068.023-.113.045-.18.045-.068.023-.135.023-.226.023-.135 0-.271-.023-.383-.068a1.28 1.28 0 0 1-.293-.18c-.068-.09-.135-.203-.158-.316-.045-.135-.068-.271-.068-.429a1.5 1.5 0 0 1 .068-.474.85.85 0 0 1 .203-.338c.09-.068.18-.135.316-.18.113-.045.226-.068.361-.068.068 0 .135.023.203.023.045.023.113.023.158.045.068.023.113.045.135.068a.31.31 0 0 1 .09.068c.023 0 .045.023.045.023 0 .023 0 .023.023.045v.045.068c0 .045 0 .09-.023.113 0 0-.023.023-.045.023s-.045-.023-.068-.045c-.045-.023-.068-.045-.113-.068s-.113-.045-.18-.068-.135-.045-.226-.045c-.18 0-.316.068-.406.203-.113.113-.158.293-.158.541a1.33 1.33 0 0 0 .045.316c.023.09.068.158.113.226a.35.35 0 0 0 .18.135c.068.023.135.045.226.045a.81.81 0 0 0 .248-.045c.045-.023.113-.045.158-.068.045-.045.09-.068.113-.09.045-.023.068-.045.09-.045l.023.023s.023 0 .023.023v.045c0 .023.023.045.023.068zm2.233-.722c0 .068-.023.09-.045.113-.045.023-.068.045-.113.045h-1.353c0 .09.023.18.045.271s.068.158.113.226c.045.045.135.09.203.135a1.33 1.33 0 0 0 .316.045c.09 0 .18-.023.271-.023.068-.023.135-.045.18-.045a1.1 1.1 0 0 0 .158-.068h.068.023c.023 0 .023 0 .023.023 0 0 .023.023.023.045v.045.045.045c-.023 0-.023.023-.023.023 0 .023 0 .023-.023.023 0 .023-.023.023-.068.045s-.09.023-.158.045-.135.045-.226.045c-.09.023-.18.023-.271.023-.18 0-.316-.023-.451-.068s-.226-.113-.316-.18c-.09-.09-.158-.203-.203-.316-.045-.135-.068-.271-.068-.451 0-.158.023-.293.068-.429s.113-.226.203-.316.18-.158.316-.203c.113-.068.248-.09.406-.09s.293.023.406.068c.113.068.203.113.271.203.09.068.135.18.158.271.045.113.068.226.068.338zm-.383-.09a.65.65 0 0 0-.135-.429c-.09-.113-.226-.158-.406-.158a.81.81 0 0 0-.248.045 1.25 1.25 0 0 0-.18.135c-.045.045-.068.113-.113.18-.023.068-.023.135-.045.226"
+    class="E"/>
+  <path d="M69.56 70.152h61.966V11.863H69.56z" class="B C D F G R T"/>
+  <path
+    d="M73.215 15.856v.068c0 .023 0 .045-.023.045v.045h-.045-.023c-.023-.023-.045-.023-.068-.023s-.045-.023-.068-.023h-.09c-.045 0-.09 0-.113.023-.045 0-.09.023-.113.068-.045.023-.09.068-.135.113-.045.068-.09.113-.135.203v1.218l-.023.023c0 .023-.023.023-.023.023-.023 0-.045.023-.068.023h-.09-.09c-.023 0-.045-.023-.045-.023-.023 0-.023 0-.045-.023v-1.872-.045s.023 0 .023-.023h.068.09.068.045c.023.023.023.023.045.023v.045.271c.045-.09.113-.135.158-.203.045-.045.09-.068.135-.09.045-.045.09-.045.135-.068.045 0 .09-.023.135-.023.023 0 .045 0 .068.023h.068c.023 0 .068.023.09.023 0 0 .023 0 .045.023v.023c.023 0 .023 0 .023.023v.045.068zm2.166.722c0 .068 0 .09-.045.113-.023.023-.045.045-.09.045h-1.353c0 .09.023.18.045.271a.43.43 0 0 0 .113.226c.045.045.113.09.203.135.09.023.18.045.316.045.09 0 .18-.023.248-.023.09-.023.158-.045.203-.045.068-.023.113-.045.135-.068h.09.023s.023 0 .023.023v.045c.023 0 .023.023.023.045s0 .045-.023.045v.045.023l-.023.023c-.023.023-.045.023-.068.045-.045.023-.113.023-.18.045-.045.023-.135.045-.226.045-.068.023-.158.023-.271.023a1.22 1.22 0 0 1-.429-.068c-.135-.045-.248-.113-.316-.18-.09-.09-.158-.203-.203-.316-.045-.135-.068-.271-.068-.451 0-.158.023-.293.068-.429s.113-.226.203-.316c.068-.09.18-.158.293-.203.135-.068.271-.09.406-.09.18 0 .316.023.429.068.113.068.203.113.271.203a.66.66 0 0 1 .158.271c.045.113.045.226.045.338zm-.361-.09a.65.65 0 0 0-.135-.429c-.09-.113-.226-.158-.406-.158-.113 0-.18.023-.248.045-.068.045-.135.09-.18.135a.49.49 0 0 0-.113.18c-.023.068-.045.135-.045.226zm2.414.812v.068.045c0 .023-.023.023-.023.023 0 .023-.023.023-.023.045-.023.023-.068.045-.113.068s-.09.045-.158.068c-.045.023-.113.045-.18.045-.068.023-.135.023-.203.023-.135 0-.271-.023-.383-.068s-.226-.113-.293-.18a1.44 1.44 0 0 1-.18-.316c-.045-.135-.045-.271-.045-.429a1.5 1.5 0 0 1 .068-.474.85.85 0 0 1 .203-.338 1.28 1.28 0 0 1 .293-.18c.113-.045.248-.068.383-.068.068 0 .135.023.18.023.068.023.135.023.18.045l.135.068a.31.31 0 0 1 .09.068c.023 0 .023.023.045.023v.045s.023.023.023.045v.068c0 .045-.023.09-.023.113-.023 0-.023.023-.045.023s-.068-.023-.09-.045-.068-.045-.113-.068-.09-.045-.158-.068-.135-.045-.226-.045c-.18 0-.316.068-.429.203-.09.113-.135.293-.135.541a1.33 1.33 0 0 0 .045.316.43.43 0 0 0 .113.226c.045.068.09.113.158.135.09.023.158.045.248.045s.158-.023.226-.045l.18-.068c.045-.045.09-.068.113-.09.045-.023.068-.045.068-.045.023 0 .023.023.045.023l.023.023v.045.068zm2.256.293s0 .023-.023.023c0 .023 0 .023-.023.023s-.023.023-.045.023h-.09-.09c-.023 0-.023-.023-.045-.023s-.023 0-.023-.023v-.271c-.135.113-.248.203-.361.248-.113.068-.226.09-.338.09-.135 0-.248-.023-.338-.068s-.18-.09-.226-.158c-.068-.068-.113-.158-.135-.248s-.045-.203-.045-.338v-1.128c0-.023.023-.023.023-.045l.023-.023h.068.09.09.045c.023.023.045.023.045.023v.045 1.083c0 .09.023.18.023.248.023.068.045.135.09.18.023.045.068.068.135.09.045.023.113.045.18.045.113 0 .203-.023.293-.09s.18-.158.293-.271v-1.286-.045c.023 0 .023 0 .045-.023h.045.09.09.068c0 .023.023.023.023.023.023.023.023.023.023.045zm1.895-1.737v.068c0 .023 0 .045-.023.045v.045h-.045-.023c-.023-.023-.045-.023-.068-.023s-.045-.023-.068-.023h-.09c-.045 0-.09 0-.113.023-.045 0-.09.023-.113.068-.045.023-.09.068-.135.113-.045.068-.09.113-.135.203v1.218l-.023.023c0 .023-.023.023-.023.023-.023 0-.045.023-.068.023h-.09-.09c-.023 0-.045-.023-.045-.023-.023 0-.023 0-.045-.023v-1.872-.045s.023 0 .023-.023h.068.09.068.045c.023.023.023.023.045.023v.045.271c.045-.09.113-.135.158-.203.045-.045.09-.068.135-.09.045-.045.09-.045.135-.068.045 0 .09-.023.135-.023.023 0 .045 0 .068.023h.068c.023 0 .068.023.09.023 0 0 .023 0 .045.023v.023c.023 0 .023 0 .023.023v.045.068zm1.624 0v.068c0 .023 0 .045-.023.045v.045h-.045-.023c-.023-.023-.045-.023-.068-.023s-.045-.023-.068-.023h-.09c-.045 0-.09 0-.113.023-.045 0-.09.023-.113.068-.045.023-.09.068-.135.113-.045.068-.09.113-.135.203v1.218l-.023.023c0 .023-.023.023-.023.023-.023 0-.045.023-.068.023h-.09-.09c-.023 0-.045-.023-.045-.023-.023 0-.023 0-.045-.023v-1.872-.045s.023 0 .023-.023h.068.09.068.045c.023.023.023.023.045.023v.045.271c.045-.09.113-.135.158-.203.045-.045.09-.068.135-.09.045-.045.09-.045.135-.068.045 0 .09-.023.135-.023.023 0 .045 0 .068.023h.068c.023 0 .068.023.09.023 0 0 .023 0 .045.023v.023c.023 0 .023 0 .023.023v.045.068zm2.143.722c0 .068 0 .09-.045.113-.023.023-.045.045-.09.045h-1.353c0 .09.023.18.045.271a.43.43 0 0 0 .113.226c.045.045.113.09.203.135.09.023.18.045.316.045.09 0 .18-.023.248-.023.09-.023.158-.045.203-.045.068-.023.113-.045.135-.068h.09.023s.023 0 .023.023v.045c.023 0 .023.023.023.045s0 .045-.023.045v.045.023l-.023.023c-.023.023-.045.023-.068.045-.045.023-.113.023-.18.045-.045.023-.135.045-.226.045-.068.023-.158.023-.271.023a1.22 1.22 0 0 1-.429-.068c-.135-.045-.248-.113-.316-.18-.09-.09-.158-.203-.203-.316-.045-.135-.068-.271-.068-.451 0-.158.023-.293.068-.429s.113-.226.203-.316c.068-.09.18-.158.293-.203.135-.068.271-.09.406-.09.18 0 .316.023.429.068.113.068.203.113.271.203a.66.66 0 0 1 .158.271c.045.113.045.226.045.338zm-.361-.09a.65.65 0 0 0-.135-.429c-.09-.113-.226-.158-.406-.158-.113 0-.18.023-.248.045-.068.045-.135.09-.18.135a.49.49 0 0 0-.113.18c-.023.068-.045.135-.045.226zm2.707 1.105v.023c-.023.023-.023.023-.045.023 0 0-.023.023-.045.023h-.09-.09c-.023 0-.045-.023-.068-.023 0 0-.023 0-.023-.023l-.023-.023V16.51c0-.113 0-.203-.023-.271s-.045-.113-.068-.158c-.045-.045-.09-.09-.135-.113-.068-.023-.135-.045-.203-.045-.09 0-.18.045-.271.113-.09.045-.203.135-.293.248v1.308l-.023.023c0 .023-.023.023-.023.023-.023 0-.045.023-.068.023h-.09-.09c-.023 0-.045-.023-.045-.023-.023 0-.023 0-.045-.023v-1.872-.045s.023 0 .023-.023h.068.09.068.045c.023.023.023.023.045.023v.045.226a1.08 1.08 0 0 1 .338-.248c.113-.045.226-.09.361-.09s.248.023.338.068.158.113.226.18c.045.068.09.135.113.248.045.09.045.203.045.338zm1.76-.135v.09c-.023.023-.023.045-.023.045-.023.023-.045.023-.068.045-.023 0-.045.023-.09.023-.023 0-.045 0-.09.023h-.113c-.09 0-.18-.023-.271-.045a.49.49 0 0 1-.18-.113c-.045-.045-.09-.113-.113-.203-.023-.068-.023-.158-.023-.271v-1.083h-.293c-.023 0-.045-.023-.045-.045-.023-.023-.023-.045-.023-.113v-.045c0-.023.023-.045.023-.045 0-.023 0-.023.023-.045h.316v-.429-.045s.023 0 .045-.023h.045.09.09.068c0 .023.023.023.023.023 0 .023.023.023.023.045v.429h.541c.023.023.023.023.023.045.023 0 .023.023.023.045v.045c0 .068 0 .09-.023.113 0 .023-.023.045-.045.045h-.519v1.038c0 .113 0 .226.045.293a.3.3 0 0 0 .226.09h.09c.045-.023.068-.023.09-.023.023-.023.023-.023.045-.023.023-.023.023-.023.045-.023l.023.023c.023.023.023.023.023.045v.068zm1.94.135l-.023.023c0 .023-.023.023-.023.023-.023 0-.045.023-.068.023h-.09-.09c-.023 0-.045-.023-.045-.023-.023 0-.023 0-.045-.023v-1.872-.045c.023 0 .023 0 .045-.023h.045.09.09.068c0 .023.023.023.023.023 0 .023.023.023.023.045zm.045-2.481c0 .068-.023.135-.068.158-.023.023-.09.045-.18.045s-.135-.023-.18-.045c-.023-.023-.045-.09-.045-.158 0-.09.023-.135.045-.158.045-.045.09-.045.18-.045s.158 0 .18.045c.045.023.068.068.068.158zm2.391 2.481v.023c-.023.023-.023.023-.045.023 0 0-.023.023-.045.023h-.09-.09c-.023 0-.045-.023-.068-.023 0 0-.023 0-.023-.023l-.023-.023V16.51c0-.113 0-.203-.023-.271s-.045-.113-.068-.158c-.045-.045-.09-.09-.135-.113-.068-.023-.135-.045-.203-.045-.09 0-.18.045-.271.113-.09.045-.203.135-.293.248v1.308l-.023.023c0 .023-.023.023-.023.023-.023 0-.045.023-.068.023h-.09-.09c-.023 0-.045-.023-.045-.023-.023 0-.023 0-.045-.023v-1.872-.045s.023 0 .023-.023h.068.09.068.045c.023.023.023.023.045.023v.045.226a1.08 1.08 0 0 1 .338-.248c.113-.045.226-.09.361-.09s.248.023.338.068.158.113.226.18c.045.068.09.135.113.248.045.09.045.203.045.338zm1.805-2.617c0 .023 0 .045-.023.045v.045c0 .023 0 .023-.023.023h-.023-.023c-.023-.023-.045-.023-.068-.023s-.045-.023-.09-.023h-.09c-.068 0-.113 0-.158.023-.023 0-.068.045-.09.068-.023.045-.045.09-.045.135-.023.068-.023.135-.023.203v.203h.451.045c0 .023 0 .023.023.045v.045c.023 0 .023.023.023.045 0 .068-.023.09-.023.113-.023.023-.045.045-.068.045h-.451v1.647c-.023.023-.023.023-.045.023 0 0-.023.023-.045.023h-.09-.09c-.023 0-.045-.023-.068-.023s-.023 0-.023-.023c-.023 0-.023-.023-.023-.023v-1.624h-.293c-.023 0-.023-.023-.045-.045 0-.023-.023-.045-.023-.113v-.045c.023-.023.023-.045.023-.045 0-.023.023-.023.023-.045h.316v-.18c0-.135.023-.248.045-.338a.53.53 0 0 1 .113-.226c.068-.068.135-.113.226-.135a1 1 0 0 1 .293-.045c.045 0 .09 0 .135.023.068 0 .09 0 .135.023.023 0 .045.023.045.023s.023.023.023.045c0 0 0 .023.023.045v.068zm2.03 1.602c0 .068 0 .09-.045.113-.023.023-.045.045-.09.045h-1.353c0 .09.023.18.045.271a.43.43 0 0 0 .113.226c.045.045.113.09.203.135.09.023.18.045.316.045.09 0 .18-.023.248-.023.09-.023.158-.045.203-.045.068-.023.113-.045.135-.068h.09.023s.023 0 .023.023v.045c.023 0 .023.023.023.045s0 .045-.023.045v.045.023l-.023.023c-.023.023-.045.023-.068.045-.045.023-.113.023-.18.045-.045.023-.135.045-.226.045-.068.023-.158.023-.271.023a1.22 1.22 0 0 1-.429-.068c-.135-.045-.248-.113-.316-.18-.09-.09-.158-.203-.203-.316-.045-.135-.068-.271-.068-.451 0-.158.023-.293.068-.429s.113-.226.203-.316c.068-.09.18-.158.293-.203.135-.068.271-.09.406-.09.18 0 .316.023.429.068.113.068.203.113.271.203a.66.66 0 0 1 .158.271c.045.113.045.226.045.338zm-.361-.09a.65.65 0 0 0-.135-.429c-.09-.113-.226-.158-.406-.158-.113 0-.18.023-.248.045a1.25 1.25 0 0 0-.18.135.49.49 0 0 0-.113.18c-.023.068-.045.135-.045.226zm2.143-.632v.068c0 .023 0 .045-.023.045v.045h-.045-.023c-.023-.023-.045-.023-.068-.023s-.045-.023-.068-.023h-.09c-.045 0-.09 0-.113.023-.045 0-.09.023-.113.068-.045.023-.09.068-.135.113-.045.068-.09.113-.135.203v1.218l-.023.023c0 .023-.023.023-.023.023-.023 0-.045.023-.068.023h-.09-.09c-.023 0-.045-.023-.045-.023-.023 0-.023 0-.045-.023v-1.872-.045s.023 0 .023-.023h.068.09.068.045c.023.023.023.023.045.023v.045.271c.045-.09.113-.135.158-.203.045-.045.09-.068.135-.09.045-.045.09-.045.135-.068.045 0 .09-.023.135-.023.023 0 .045 0 .068.023h.068c.023 0 .068.023.09.023 0 0 .023 0 .045.023v.023c.023 0 .023 0 .023.023v.045.068zm2.166.722c0 .068 0 .09-.045.113-.023.023-.045.045-.09.045h-1.353c0 .09.023.18.045.271a.43.43 0 0 0 .113.226c.045.045.113.09.203.135.09.023.18.045.316.045.09 0 .18-.023.248-.023.09-.023.158-.045.203-.045.068-.023.113-.045.135-.068h.09.023s.023 0 .023.023v.045c.023 0 .023.023.023.045s0 .045-.023.045v.045.023l-.023.023c-.023.023-.045.023-.068.045-.045.023-.113.023-.18.045-.045.023-.135.045-.226.045-.068.023-.158.023-.271.023a1.22 1.22 0 0 1-.429-.068c-.135-.045-.248-.113-.316-.18-.09-.09-.158-.203-.203-.316-.045-.135-.068-.271-.068-.451 0-.158.023-.293.068-.429s.113-.226.203-.316c.068-.09.18-.158.293-.203.135-.068.271-.09.406-.09.18 0 .316.023.429.068.113.068.203.113.271.203a.66.66 0 0 1 .158.271c.045.113.045.226.045.338zm-.361-.09a.65.65 0 0 0-.135-.429c-.09-.113-.226-.158-.406-.158-.113 0-.18.023-.248.045a1.25 1.25 0 0 0-.18.135.49.49 0 0 0-.113.18c-.023.068-.045.135-.045.226zm2.707 1.105v.023c-.023.023-.023.023-.045.023 0 0-.023.023-.045.023h-.09-.09c-.023 0-.045-.023-.068-.023 0 0-.023 0-.023-.023l-.023-.023V16.51c0-.113 0-.203-.023-.271s-.045-.113-.068-.158c-.045-.045-.09-.09-.135-.113-.068-.023-.135-.045-.203-.045-.09 0-.18.045-.271.113-.09.045-.203.135-.293.248v1.308l-.023.023c0 .023-.023.023-.023.023-.023 0-.045.023-.068.023h-.09-.09c-.023 0-.045-.023-.045-.023-.023 0-.023 0-.045-.023v-1.872-.045s.023 0 .023-.023h.068.09.068.045c.023.023.023.023.045.023v.045.226a1.08 1.08 0 0 1 .338-.248c.113-.045.226-.09.361-.09s.248.023.338.068.158.113.226.18c.045.068.09.135.113.248.045.09.045.203.045.338zm2.143-.293v.068.045c0 .023-.023.023-.023.023 0 .023-.023.023-.023.045-.023.023-.068.045-.113.068s-.09.045-.158.068c-.045.023-.113.045-.18.045-.068.023-.135.023-.203.023-.135 0-.271-.023-.383-.068s-.226-.113-.293-.18a1.44 1.44 0 0 1-.18-.316c-.045-.135-.045-.271-.045-.429a1.5 1.5 0 0 1 .068-.474.85.85 0 0 1 .203-.338c.09-.068.18-.135.293-.18s.248-.068.383-.068c.068 0 .135.023.18.023.068.023.135.023.18.045l.135.068a.31.31 0 0 1 .09.068c.023 0 .023.023.045.023v.045s.023.023.023.045v.068c0 .045-.023.09-.023.113-.023 0-.023.023-.045.023s-.068-.023-.09-.045-.068-.045-.113-.068-.09-.045-.158-.068-.135-.045-.226-.045c-.18 0-.316.068-.429.203-.09.113-.135.293-.135.541a1.33 1.33 0 0 0 .045.316.43.43 0 0 0 .113.226c.045.068.09.113.158.135.09.023.158.045.248.045s.158-.023.226-.045l.18-.068c.045-.045.09-.068.113-.09.045-.023.068-.045.068-.045.023 0 .023.023.045.023l.023.023v.045.068zm2.256-.722c0 .068 0 .09-.045.113-.023.023-.045.045-.09.045h-1.353c0 .09.023.18.045.271a.43.43 0 0 0 .113.226c.045.045.113.09.203.135.09.023.18.045.316.045.09 0 .18-.023.248-.023.09-.023.158-.045.203-.045.068-.023.113-.045.135-.068h.09.023s.023 0 .023.023v.045c.023 0 .023.023.023.045s0 .045-.023.045v.045.023l-.023.023c-.023.023-.045.023-.068.045-.045.023-.113.023-.18.045-.045.023-.135.045-.226.045-.068.023-.158.023-.271.023a1.22 1.22 0 0 1-.429-.068c-.135-.045-.248-.113-.316-.18-.09-.09-.158-.203-.203-.316-.045-.135-.068-.271-.068-.451 0-.158.023-.293.068-.429s.113-.226.203-.316c.068-.09.18-.158.293-.203.135-.068.271-.09.406-.09.18 0 .316.023.429.068.113.068.203.113.271.203a.66.66 0 0 1 .158.271c.045.113.045.226.045.338zm-.361-.09a.65.65 0 0 0-.135-.429c-.09-.113-.226-.158-.406-.158-.113 0-.18.023-.248.045-.068.045-.135.09-.18.135a.49.49 0 0 0-.113.18c-.023.068-.045.135-.045.226"
+    class="E"/>
+  <path d="M10.346 62.009h42.86V51.452h-42.86z" class="B C D G R"/>
+  <text xml:space="preserve" transform="matrix(1.000008 0 0 .999992 41.977 -13.551)" x="-23.013" y="71.568"
+        class="E L M N"><tspan x="-23.013 -21.542 -19.42 -17.203 -15.713 -13.609 -11.941 -9.838 -7.62 -6.208 -4.186 -2.774 -1.812 0.414" y="71.568">representation</tspan></text>
+  <path d="M10.346 34.421h42.86V23.886h-42.86z" class="B C D G R"/>
+  <text xml:space="preserve" transform="matrix(1.000008 0 0 .999992 41.977 -13.551)" x="-18.998" y="43.979"
+        class="L M N Q"><tspan x="-18.998 -16.784 -15.316 -13.216 -11.001 -10.042 -8.236 -6.828 -5.837 -3.614" y="43.979" class="E">prediction</tspan>
+    <tspan x="-7.018 -4.792 -3.822 -1.613 0.618 2.73 4.955 5.902 7.559 8.979 11.01 12.408" y="60.697" class="E">hidden state</tspan></text>
+  <path d="M30.017 44.143h3.587v-3.564h-3.587z" class="O"/>
+  <g class="B C D">
+    <path d="M30.017 44.143h3.587v-3.564h-3.587z" class="G P"/>
+    <path d="M31.776 51.452v-2.233h.045v-2.887" class="F H I"/>
+  </g>
+  <use xlink:href="#B" class="J K"/>
+  <path d="M31.821 40.579v-2.233h-.045v-1.76" class="B C D F H I"/>
+  <path d="M30.535 36.902l1.241-2.481 1.263 2.481h-2.504" class="J K"/>
+  <text xml:space="preserve" transform="matrix(1.000008 0 0 .999992 41.977 -13.551)" x="-20.442" y="95.502"
+        class="E L M N"><tspan x="-20.442 -18.211 -15.989 -14.335 -12.227 -10.752 -8.839 -6.812 -5.396 -4.405 -2.174" y="95.502">observation</tspan></text>
+  <path d="M29.971 77.145h3.587v-3.564h-3.587z" class="O"/>
+  <g class="B C D">
+    <path d="M29.971 77.145h3.587v-3.564h-3.587z" class="G P"/>
+    <path d="M31.754 73.581v-4.466h.023v-4.94" class="F H I"/>
+  </g>
+  <path d="M30.535 64.49l1.241-2.481 1.263 2.481h-2.504" class="J K"/>
+  <text xml:space="preserve" transform="matrix(1.000008 0 0 .999992 41.977 -13.551)" x="-22.269" y="16.436"
+        class="L M N Q"><tspan x="-22.269 -20.357 -18.331 -17.365 -15.144" y="16.436" class="E">value</tspan></text>
+  <path d="M22.415 8.299h3.564V4.735h-3.564z" class="O"/>
+  <path d="M22.415 8.299h3.564V4.735h-3.564z" class="B C D G P"/>
+  <text xml:space="preserve" transform="matrix(1.000008 0 0 .999992 41.977 -13.551)" x="-7.404" y="16.436"
+        class="L M N Q"><tspan x="-7.404 -5.18 -2.948 -1.98 -1.012 0.779" y="16.436" class="E">policy</tspan></text>
+  <path d="M37.438 8.299h3.564V4.735h-3.564z" class="O"/>
+  <g class="B C D">
+    <path d="M37.438 8.299h3.564V4.735h-3.564z" class="G P"/>
+    <path d="M24.264 23.886v-4.489h-.068v-8.933" class="F H I"/>
+  </g>
+  <use xlink:href="#B" x="-7.625" y="-35.844" class="J K"/>
+  <path d="M39.265 23.886v-4.489h-.045v-8.933" class="B C D F H I"/>
+  <use xlink:href="#B" x="7.398" y="-35.844" class="J K"/>
+  <path d="M79.553 62.009h42.86V51.452h-42.86z" class="B C D G R"/>
+  <text xml:space="preserve" transform="matrix(1.000008 0 0 .999992 41.977 -13.551)" x="50.93" y="71.568" fill="#595959"
+        class="L M N"><tspan x="50.93 53.16 55.084 57.293 59.323 62.714 63.688 65.485" y="71.568" class="E">dynamics</tspan></text>
+  <path d="M79.553 34.421h42.86V23.886h-42.86z" class="B C D G R"/>
+  <text xml:space="preserve" transform="matrix(1.000008 0 0 .999992 41.977 -13.551)" x="50.186" y="43.979"
+        class="L M N Q"><tspan x="50.186 52.4 53.868 55.969 58.183 59.142 60.948 62.356 63.347 65.57" y="43.979" class="E">prediction</tspan>
+    <tspan x="62.141 64.366 65.336 67.545 69.777 71.888 74.114 75.061 76.718 78.138 80.168 81.567" y="60.582" class="E">hidden state</tspan></text>
+  <path d="M99.224 44.143h3.564v-3.564h-3.564z" class="O"/>
+  <g class="B C D">
+    <path d="M99.224 44.143h3.564v-3.564h-3.564z" class="G P"/>
+    <path d="M100.983 51.452v-2.233h.023v-2.887" class="F H I"/>
+  </g>
+  <use xlink:href="#B" x="69.184" class="J K"/>
+  <path d="M101.006 40.579v-2.233h-.023v-1.76" class="B C D F H I"/>
+  <use xlink:href="#B" x="69.162" y="-9.722" class="J K"/>
+  <path d="M33.603 42.361h31.761V66.52h35.619v-2.346" class="B C D F H I"/>
+  <use xlink:href="#B" x="69.162" y="17.866" class="J K"/>
+  <text xml:space="preserve" transform="matrix(1.000008 0 0 .999992 41.977 -13.551)" x="54.517" y="16.549"
+        class="L M N Q"><tspan x="54.517 56.429 58.455 59.421 61.642" y="16.549" class="E">value</tspan></text>
+  <path d="M99.201 8.412h3.587V4.848h-3.587z" class="O"/>
+  <path d="M99.201 8.412h3.587V4.848h-3.587z" class="B C D G P"/>
+  <text xml:space="preserve" transform="matrix(1.000008 0 0 .999992 41.977 -13.551)" x="66.405" y="16.549"
+        class="L M N Q"><tspan x="66.405 68.628 70.86 71.828 72.796 74.587" y="16.549" class="E">policy</tspan></text>
+  <path d="M110.976 8.412h3.564V4.848h-3.564z" class="O"/>
+  <g class="B C D">
+    <path d="M110.976 8.412h3.564V4.848h-3.564z" class="G P"/>
+    <path d="M100.983 23.886l.023-13.286" class="F H I"/>
+  </g>
+  <path d="M99.743 10.893l1.263-2.481 1.241 2.481h-2.504" class="J K"/>
+  <path d="M112.758 23.886V10.6" class="B C D F H I"/>
+  <use xlink:href="#B" x="80.937" y="-35.731" class="J K"/>
+  <path d="M73.079 8.502h3.564V4.915h-3.564z" class="O"/>
+  <g class="B C D">
+    <path d="M73.079 8.502h3.564V4.915h-3.564z" class="G P"/>
+    <path d="M88.87 51.452v-8.301H74.884V20.886h-.023V10.667" class="F H I"/>
+  </g>
+  <use xlink:href="#B" x="43.04" y="-35.641" class="J K"/>
+  <text xml:space="preserve" transform="matrix(1.000008 0 0 .999992 41.977 -13.551)" x="26.591" y="16.571"
+        class="L M N Q"><tspan x="26.591 28.061 30.183 33.205 35.227 36.697" y="16.571" class="E">reward</tspan>
+    <tspan x="53.727 55.755 57.546 58.963 59.931 62.162" y="95.434" class="E">action</tspan></text>
+  <path d="M99.179 77.213h3.564v-3.564h-3.564z" class="O"/>
+  <g class="B C D">
+    <path d="M99.179 77.213h3.564v-3.564h-3.564z" class="G P"/>
+    <path d="M100.961 73.649v-4.466h.023v-5.008" class="F H I"/>
+  </g>
+  <use xlink:href="#B" x="69.162" y="17.866" class="J K"/>
+  <path d="M102.788 42.361h31.694v24.25h15.948" class="B C D F H I"/>
+  <path d="M150.114 65.37l2.481 1.241-2.481 1.241V65.37" class="J K"/>
+  <text xml:space="preserve" transform="matrix(1.000008 0 0 .999992 41.977 -13.551)" x="113.775" y="80.568"
+        font-size="10.58" class="E L M"><tspan x="113.775 116.445 119.114" y="80.568">...</tspan></text>
+  <g transform="translate(41.977 -13.551)">
+    <a href="https://netron.app/?url=https://enpasos.ai/onnx/MuZero-TicTacToe-Prediction.onnx" target="_blank">
+      <path d="M-35.251 34.999h49.803v16.54h-49.803zm69.978-.181h48.712V50.45H34.727z" class="S E"/>
+    </a>
+    <a href="https://netron.app/?url=https://enpasos.ai/onnx/MuZero-TicTacToe-Representation.onnx" target="_blank">
+      <path d="M-38.16 61.537h54.347v17.267H-38.16z" class="E S"/>
+    </a>
+    <a href="https://netron.app/?url=https://enpasos.ai/onnx/MuZero-TicTacToe-Generation.onnx" target="_blank">
+      <path d="M32.001 61.9h50.894v16.904H32.001z" class="E S"/>
+    </a>
+  </g>
+  <defs>
+    <style>
+      @font-face{font-family:"Calibri";src:url(data:application/font-woff;charset=utf-8;base64,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)
+      format("woff"); font-weight:normal;font-style:normal;}
+    </style>
+    <path id="B" d="M30.581 46.624l1.241-2.481 1.241 2.481h-2.481"/>
+  </defs>
 </svg>
