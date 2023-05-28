@@ -13,7 +13,7 @@ It reveals two ways of our thinking:
 * [“slow” planning](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwijlvP3_d7wAhUM2BQKHVNSAgIQqJcEMBV6BAgjEA0&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DCjVQJdIrDJ0%26t%3D413&usg=AOvVaw1lCsl5OsYIi08ja46-2Kxs)
 
 
-DeepMind's team built MuZero on these patterns ([Sebastian Bodenstein's Blog](https://sebastianbodenstein.net/post/alphazero/)).
+DeepMind's team built MuZero on these patterns.
 * **fast pattern matching** is performed by the neural network on a straight path from observation to action prediction.
 * **slow planning** is done in Monte Carlo tree search, where the planning goes beyond the predictions made by the neural network
   while using them as a basis, which
