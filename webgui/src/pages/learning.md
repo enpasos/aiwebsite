@@ -26,7 +26,7 @@ Nuts & bolts - hands-on ...
 * [Dive into deep learning - Deep Java Library (DJL)](https://d2l.djl.ai/)
   <br>Interactive deep learning book with code, math, and discussions; Java version
   <br>_Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola_
-* [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
+* [Reinforcement Learning: An Introduction](https://mitpress.mit.edu/9780262039246/reinforcement-learning/)
   <br>_Richard S. Sutton and Andrew G. Barto_
 * [Natural Language Processing with Transformers Book](https://transformersbook.com/)
   <br>Modern approach to natural language processing (NLP)

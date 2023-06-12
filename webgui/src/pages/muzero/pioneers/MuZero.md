@@ -3,6 +3,19 @@ title: Pioneers - MuZero & Beyond
 desc: Pioneers ...
 ---
 
+The interaction between the agent and the environment ([copied from ...](https://arxiv.org/abs/2306.03408)):
+<div><object type="image/svg+xml" data="https://enpasos.ai/agent_environment.svg" width="100%"/></div>
+
+The agent makes observations about the environment, is informed about the legal actions it can choose from, and
+potentially receives a reward after taking an action. This is the experienced information about the otherwise
+black-box environment. Together with internal information, such as actions taken, they form a memory of episodes.
+The agent uses this experience to train a model. The model's predictions include an in-mind state representation for
+observations, the value and policy for a state representation, the reward and the next state representation for an action.
+Based on the model's predictions, the agent plans an improved policy by partially unrolling the decision tree internally.
+Based on the improved policy resulting from the planning, the agent decides which action to take, taking into account
+its desire to explore the environment. The agent can also revisit states from its memory and re-analyse them.
+With _Reanalyse_, there are two model optimisation loops: one via the environment and one entirely in the agent's mind.
+
 ## MuZero
 
 [MuZero (DeepMind's blog post)](https://deepmind.com/blog/article/muzero-mastering-go-chess-shogi-and-atari-without-rules).
