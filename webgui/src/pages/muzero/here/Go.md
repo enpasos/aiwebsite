@@ -12,7 +12,7 @@ breathtaking achievements of the DeepMind's team.
 
 The book
 [deep learning and the game of go](https://www.manning.com/books/deep-learning-and-the-game-of-go) by [Max Pumperla](https://maxpumperla.com/) and Kevin Ferguson
-helped us a lot to dive into the subject matter. We used the go environment within Max Pumperla's project [ScalphaGoZero](https://maxpumperla.com/ScalphaGoZero/) during selfplay of our MuZero implementation.
+helped us a lot to dive into the subject matter. We used the go environment within Max Pumperla's project [ScalphaGoZero](https://maxpumperla.com/ScalphaGoZero/) during self-play of our MuZero implementation.
 
 <go title="Game Go" />
 
