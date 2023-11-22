@@ -17,7 +17,7 @@ gradlew build
 ## Run  
 
 ``` 
-java -jar webserver/build/libs/enpasosai-webserver-1.0.0.jar  
+java -jar webserver/build/libs/enpasosai-webserver-1.0.1.jar  
 ```
 
 ## License

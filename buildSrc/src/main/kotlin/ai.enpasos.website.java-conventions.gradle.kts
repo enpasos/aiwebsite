@@ -23,8 +23,10 @@ repositories {
 }
 
 group = "ai.enpasos.website"
-version = "1.0.0"
+version = "1.0.1"
+
 java.sourceCompatibility = JavaVersion.VERSION_17
+java.targetCompatibility = JavaVersion.VERSION_17
 
 publishing {
     publications.create<MavenPublication>("maven") {

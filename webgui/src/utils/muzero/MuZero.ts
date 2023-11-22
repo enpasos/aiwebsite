@@ -11,7 +11,6 @@ export async function runDecision(scale: number, size: number, initialInference:
 
   // console.log("legal actions: " + legalActions);
   const start = new Date();
-  // debugger
   const [res] = await runModel(initialInference, inputTensors);
   //console.log("initialInference: " + time + " ms")
 

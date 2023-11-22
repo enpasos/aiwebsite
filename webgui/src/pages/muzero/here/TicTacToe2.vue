@@ -476,16 +476,22 @@ export default defineComponent({
       this.v = res[ 2 ]
       const allowedActions = this.allowedActions()
       let maxIndex = 0
-      if (allowedActions.length > 8) {
-        do {
-          // todo sample only once
-          maxIndex = this.sample(this.p)
-        } while (!allowedActions.includes(maxIndex))
+
+      // for loop this.p
+      let trustLevel = 0.05;
+      for (let a = 0; a < this.p.length; a++) {
+        if (this.p[ a ] < trustLevel) {
+          this.p[ a ] = 0;
+        }
       }
-      else {
-        const max = Math.max.apply(null, this.p)
-        maxIndex = this.p.indexOf(max)
+      let sum = 0;
+      for (let a = 0; a < this.p.length; a++) {
+        sum += this.p[ a ];
       }
+      for (let a = 0; a < this.p.length; a++) {
+        this.p[ a ] = this.p[ a ]/sum;
+      }
+      maxIndex = this.sample(this.p)
       this.inferenceTime = time
       this.sessionRunning = false
       const keys = [ 'a3', 'b3', 'c3', 'a2', 'b2', 'c2', 'a1', 'b1', 'c1' ]
@@ -505,8 +511,6 @@ export default defineComponent({
 .tic-tac-toe-container {
   color: #b6b5ca;
   font-family: 'Arial', sans-serif;
-//font-size: 1em;
-//font-weight: normal;
   margin: 0;
   text-align: center;
   line-height: normal;

@@ -13,7 +13,7 @@ group = "${group}"
 
 
 node {
-  version.set("18.12.1")
+  version.set("18.18.0")
   npmVersion.set("")
   yarnVersion.set("")
   npmInstallCommand.set("install")
@@ -34,8 +34,8 @@ tasks.register("build") {
   dependsOn(tasks.npmInstall)
   doLast {
     //val greeting = "hello from Ant"
-    val npm = "${project.projectDir}/.cache/nodejs/node-v18.12.1-win-x64/npm.cmd"
-    val node = "${project.projectDir}/.cache/nodejs/node-v18.12.1-win-x64/node.exe"
+    val npm = "${project.projectDir}/.cache/nodejs/node-v18.18.0-win-x64/npm.cmd"
+    val node = "${project.projectDir}/.cache/nodejs/node-v18.18.0-win-x64/node.exe"
     val quasar = "${project.projectDir}/node_modules/@quasar/cli/bin/quasar"
 
     ant.withGroovyBuilder {

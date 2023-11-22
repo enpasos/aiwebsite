@@ -21,7 +21,7 @@ module.exports = ctx => ({
   extras: [
     'roboto-font',
     'material-icons',
-    'mdi-v6'
+    'mdi-v7'
   ],
   build: {
     vueRouterMode: 'history',

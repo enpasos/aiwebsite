@@ -14,8 +14,8 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/cli": "^2.2.1",
-    "@quasar/extras": "^1.16.4",
+    "@quasar/cli": "^2.3.0",
+    "@quasar/extras": "^1.16.8",
     "ndarray": "^1.0.19",
     "ndarray-ops": "^1.2.2",
     "ndarray-resample": "^1.0.1",
@@ -23,7 +23,7 @@
     "ndarray-unpack": "^1.0.0",
     "onnxruntime-web": "^1.14.0",
     "prismjs": "^1.26.0",
-    "quasar": "^2.12.0",
+    "quasar": "^2.14.0",
     "tenuki": "^0.3.1",
     "to": "^0.2.9",
     "update": "^0.7.4",
@@ -32,7 +32,7 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@quasar/app-vite": "^1.4.3",
+    "@quasar/app-vite": "^1.7.0",
     "autoprefixer": "^10.4.13",
     "axios": "^1.2.2",
     "eslint": "^8.31.0",
