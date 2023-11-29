@@ -10,16 +10,16 @@ Nuts & bolts - hands-on ...
 
 * [2023 - Introduction to Deep Learning](http://introtodeeplearning.com/)
 <br>_Massachusetts Institute of Technology (MIT), lecture series 6.S191_
-* [Google DeepMind - Learning Resources](https://deepmind.com/learning-resources)
+* Google DeepMind - Learning Resources
   <br>_Google DeepMind & University College London (UCL)_
-  * [2020 - Deep Learning Lecture Series](https://deepmind.com/learning-resources/deep-learning-lecture-series-2020)
-  * [2021 - Reinforcement Learning Lecture Series](https://deepmind.com/learning-resources/reinforcement-learning-series-2021)
-  * [2015 - Introduction to Reinforcement Learning by David Silver](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver)
+  * [2020 - Deep Learning Lecture Series](https://www.youtube.com/watch?v=7R52wiUgxZI&list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF)
+  * [2021 - Reinforcement Learning Lecture Series by Hado van Hasselt](https://www.youtube.com/watch?v=TCCjZe0y4Qc&list=PLqYmG7hTraZDVH599EItlEWsUOsJbAodm)
+  * [2015 - Introduction to Reinforcement Learning by David Silver](https://www.davidsilver.uk/teaching/)
 
 
 
 **Books**
-* [Dive into deep learning - NumPy/MXNet, PyTorch, and TensorFlow](https://d2l.ai/)
+* [Dive into deep learning - Pytorch, NumPy/MXNet, JAX, and TensorFlow](https://d2l.ai/)
   <br>Interactive deep learning book with code, math, and discussions; original python version;
   adopted at 300 universities from 55 countries
   <br>_Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola_

@@ -181,12 +181,12 @@ be taken care of. Easier on a computer than in real world, see
 
 | Option            | Description                                                                                                                                                                        |
 |:------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Examples          | Tic-Tac-Toe, GO 5x5                                                                                                                                                                |
+| Examples          | Tic-Tac-Toe, GO 5x5, GO 9x9                                                                                                                                                        |
 | App               | MuZero                                                                                                                                                                             |
-| AI Java framework | [DJL 0.22.1](https://github.com/awslabs/djl)                                                                                                                                       |
-| Java              | [JDK 17](https://github.com/corretto/corretto-17/releases)                                                                                                                         |
-| AI framework      | [PyTorch 2.0](https://pytorch.org/docs/2.0/)                                                                                                                                       |
-| Device API        | [CUDA 11.8](https://docs.nvidia.com/cuda/archive/11.8.0/)<br/>[cuDNN 8.9](https://docs.nvidia.com/deeplearning/cudnn/index.html)                                                   |
+| AI Java framework | [DJL 0.25.0](https://github.com/awslabs/djl)                                                                                                                                       |
+| Java              | [JDK 21](https://github.com/corretto/corretto-21/releases)                                                                                                                         |
+| AI framework      | [PyTorch 2.1.1](https://pytorch.org/docs/2.1/)                                                                                                                                     |
+| Device API        | [CUDA 12.1](https://docs.nvidia.com/cuda/archive/12.1.1/)<br/>[cuDNN 8.9](https://docs.nvidia.com/deeplearning/cudnn/index.html)                                                   |
 | OS                | Windows 11, 64 bit                                                                                                                                                                 |
 | HW                | PC: <br/>&nbsp;&nbsp;CPU: Intel Core i9-13900K, <br/>&nbsp;&nbsp;Main Memory: 128 GB, <br/>&nbsp;&nbsp;BUS: PCIe 4.0, <br/>&nbsp;&nbsp;GPU: NVIDIA GeForce RTX 4090 with 26 GB RAM |
 

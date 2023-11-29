@@ -5,7 +5,7 @@ import com.github.gradle.node.task.NodeTask
 import com.github.gradle.node.yarn.task.YarnTask
 
 plugins {
- id("com.github.node-gradle.node") version "3.5.0"
+ id("com.github.node-gradle.node") version "7.0.1"
 }
 
 description = "webgui"
@@ -13,7 +13,7 @@ group = "${group}"
 
 
 node {
-  version.set("18.18.0")
+  version.set("20.10.0")
   npmVersion.set("")
   yarnVersion.set("")
   npmInstallCommand.set("install")
@@ -34,8 +34,8 @@ tasks.register("build") {
   dependsOn(tasks.npmInstall)
   doLast {
     //val greeting = "hello from Ant"
-    val npm = "${project.projectDir}/.cache/nodejs/node-v18.18.0-win-x64/npm.cmd"
-    val node = "${project.projectDir}/.cache/nodejs/node-v18.18.0-win-x64/node.exe"
+    val npm = "${project.projectDir}/.cache/nodejs/node-v20.10.0-win-x64/npm.cmd"
+    val node = "${project.projectDir}/.cache/nodejs/node-v20.10.0-win-x64/node.exe"
     val quasar = "${project.projectDir}/node_modules/@quasar/cli/bin/quasar"
 
     ant.withGroovyBuilder {
