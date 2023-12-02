@@ -109,9 +109,9 @@ export default defineComponent({
       initialSession: undefined as InferenceSession | undefined,
       recurrentSession: undefined as InferenceSession | undefined,
       // gpuInitialSession: InferenceSession | undefined,
-      cpuInitialSession: undefined as InferenceSession| undefined, // | undefined,
+   //   cpuInitialSession: undefined as InferenceSession| undefined, // | undefined,
       // gpuRecurrentSession: InferenceSession | undefined,
-      cpuRecurrentSession: undefined as InferenceSession| undefined,
+   //   cpuRecurrentSession: undefined as InferenceSession| undefined,
       initialSessionRunning: false  as boolean,
       initialModelLoading: false  as boolean,
       initialModelInitializing: false  as boolean,
@@ -155,7 +155,9 @@ export default defineComponent({
     sizeString: {
       handler: function () {
         this.setup()
+        // debugger
         this.afterTenukiCreated()
+        this.clearChartData()
       }
     }
   },
@@ -484,23 +486,24 @@ export default defineComponent({
       return tensor
     },
     async initInitialSession () {
+      // debugger
       this.initialSessionRunning = false
       this.initialModelLoadingError = false
-      if (this.initialCpuSession) {
-        this.initialSession = this.cpuInitialSession
-        return
-      }
+      // if (this.initialCpuSession) {
+      //   this.initialSession = this.cpuInitialSession
+      //   return
+      // }
       this.initialModelLoading = true
       this.initialModelInitializing = true
 
       try {
-        this.cpuInitialSession = await runModelUtils.createModelCpu(this.initialModelFile)
-        this.initialSession = this.cpuInitialSession
+        this.initialSession = await runModelUtils.createModelCpu(this.initialModelFile)
+      //&  this.initialSession = this.cpuInitialSession
       }
       catch (e) {
         this.initialModelLoading = false
         this.initialModelInitializing = false
-        this.cpuInitialSession = undefined
+    //    this.cpuInitialSession = undefined
         throw new Error('Error: Backend not supported. ')
       }
       this.initialModelLoading = false
@@ -510,23 +513,24 @@ export default defineComponent({
       this.initialModelInitializing = false
     },
     async initRecurrentSession () {
+      //
       this.recurrentSessionRunning = false
       this.recurrentModelLoadingError = false
-      if (this.cpuRecurrentSession) {
-        this.recurrentSession = this.cpuRecurrentSession
-        return
-      }
+      // if (this.cpuRecurrentSession) {
+      //   this.recurrentSession = this.cpuRecurrentSession
+      //   return
+      // }
       this.recurrentModelLoading = true
       this.recurrentModelInitializing = true
 
       try {
-        this.cpuRecurrentSession = await runModelUtils.createModelCpu(this.recurrentModelFile)
-        this.recurrentSession = this.cpuRecurrentSession
+        this.recurrentSession = await runModelUtils.createModelCpu(this.recurrentModelFile)
+       // this.recurrentSession = this.cpuRecurrentSession
       }
       catch (e) {
         this.recurrentModelLoading = false
         this.recurrentModelInitializing = false
-        this.cpuRecurrentSession = undefined
+      //  this.cpuRecurrentSession = undefined
         throw new Error('Error: Backend not supported. ')
       }
       this.recurrentModelLoading = false
